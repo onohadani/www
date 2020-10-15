@@ -1,0 +1,664 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Omid Nohadani</title>    
+    
+    <link href="mystyle.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript">
+            <!--
+            function toggle_visibility(id) {
+                var e = document.getElementById(id);
+                if(e.style.display == 'block')
+                e.style.display = 'none';
+                else
+                e.style.display = 'block';
+            }
+        //-->
+            </script>
+
+</head>
+
+<body>
+
+<div id="header">
+    <a  id="NUlink" href="http://www.northwestern.edu"></a>
+</div>
+
+<div id="wrapper" class="home">
+
+<div id="nav">
+    <a class="active" id="first" href="http://users.iems.northwestern.edu/~nohadani">HOME</a>
+    <a href="../res.html">RESEARCH</a>
+    <a href="../publications/">PUBLICATIONS</a>
+    <a href="../teaching.html">TEACHING</a>
+    <a href="../cv.html">CV</a>
+    <a id="last"  href="../students.html">STUDENTS</a>
+</div>
+
+  <div id="content">
+
+<!-- EXPLANATION -->
+This list is divided into publications in
+<A HREF="#or_section">Operations Research</A> and
+<A HREF="#phys_section">Physics</A>.<br>
+The OR related publications have additional Details.<br>
+You can also <a href="./index_dyn_cc.html">hide all</a>.<br><br>
+<font color="#993333"><i>Conference Proceedings</i></font> are not numbered
+(<a href="./index_dyn_cc.html">show all</a>).
+
+
+<A NAME="or_section">
+
+<h2><font color="#993333">Submitted Papers in Operations Research</font><font color="#333" size="2"> (under review / in revision)</font></h2>
+
+<ol>
+    
+    <li>
+        <i>Robust Predictive IMRT Planning
+        </i><br>(with A. Roy and J. Seco)
+        <br>submitted (2016).
+        <br>&nbsp;
+        <a onclick="toggle_visibility('rob_pred');"><u>Details</u></a>
+        <div id="rob_pred"><b>Summary:</b>
+            Spatiotemporal tumor changes reduce the effectiveness of fractionated radiation therapy. We study a robust predictive method that can support treatment planning when spatiotemporal changes occur with uncertain progression
+            A multi-scenario multi-time method is developed that hedges amongst these scenarios and provides plans that are on average equally good to current practice and remain acceptable even in the worst case. Two clinical lung cancer cases serve as proof of concept.
+            <br><br>
+            <b>Contributions:</b>
+            1) Method: Experts’s knowledge is directly incorporated into adaptive planning in a robust fashion, i.e., diverging opinions are accounted for.<br>
+            2) Method: Offers a unifying framework for conventional, adaptive, and robust adaptive planning.<br>
+            3) Application: The incorporation of multiple time-resolved datasets shows significantly improved treatment goals for patients with spatiotemporal changes during radiotherapy.<br>
+            4) Application: The progress of chemotherapy can be accounted for into the radiation planning process, resulting plans withstands uncertainties, even in worst-case scenarios.
+            <br><br>
+            <b>Journal:</b> submitted to <i>Physics in Medicine and Biology</i> (5/2016), second round.
+            <hr align="left" width="70%"><br>
+        </div>
+        
+    </li>
+    
+    <li>
+        <i>Robust Maximum Likelihood Estimation
+        </i><br>(with D. Bertsimas and A. Fertis)
+        <br>submitted (2016).
+        <br>&nbsp;
+        <a onclick="toggle_visibility('rmle');"><u>Details</u></a>
+        <div id="rmle"><b>Summary:</b>
+            In many applications, statistical estimators serve to derive conclusions from data, most prominently in finance, medical decision-making and clinical trials.
+            However, the conclusions are typically dependent on uncertainties in the data.
+            We use robust optimization principles to construct robust maximum likelihood estimators that are immune against data errors.
+            Both types of input data errors are considered: a) adversarial type, modeled using the notion of uncertainty sets,
+            and b) probabilistic type, modeled by distributions.
+            The estimator performance is demonstrated on two applications.
+            <br><br>
+            <b>Contributions:</b>
+            1) Method: The first robust approach to maximum likelihood estimators for data uncertainty (as opposed to distributional uncertainty). Therefore, they allow practical interpretation.<br>
+            2) Method: We provide efficient local and global search algorithms to compute the robust estimators and discuss them in detail for the case of multivariate normally distributed data.<br>
+            3) Application: For simulated data, these estimators are robust against both types of uncertainty and provide significantly more accurate estimates, compared to classical estimators.<br>
+            4) Application: We establish a range of uncertainty sizes, for which robust estimators are superior.<br>
+            5) Application: In cancer radiation therapy, there are significant uncertainties amongst plans.
+            Robust estimators offer more reliable decisions when applied to a large set of past treatment plans.
+            <br><br>
+            <b>Journal:</b>submitted to <i>INFORMS Journal on Computing</i> (1/2016) .
+            <hr align="left" width="70%"><br>
+        </div>
+        
+        
+    </li>
+    
+    
+    <li>
+        <i>Robust Optimization with Time-Dependent Uncertainty in Radiation Therapy Planning
+        </i><br>(with A. Roy)
+        <br>submitted (2016).
+        <br>&nbsp;
+        <a onclick="toggle_visibility('time_dep');"><u>Details</u></a>
+        <div id="time_dep"><b>Summary:</b>
+            Recent approaches to multi-stage robust optimization assume fixed uncertainties.
+            However, in many applications, uncertainties evolve over time, rendering the robust solutions suboptimal.
+            This issue is particularly prevalent in medical decision-making, where a patient's condition can change during the course of the treatment.
+            We provide a general robust optimization framework that incorporates time-dependent uncertainty sets in a tractable fashion.
+            <br><br>
+            <b>Contributions:</b>
+            1) Method: The temporal changes are modeled as conic robust two-stage linear problems for which we provide robust counterparts for uncertain constraint parameters.<br>
+            2) Method: Robust solutions to temporally connected uncertainty sets are NP-hard.  In this context, this is a first tractable reformulation.<br>
+            3) Application: In radiation therapy, changes in oxygenation affect the response to radiation.
+            For clinical cases, our approach improves tumor control throughout the treatment, as opposed to current methods that lose efficacy at some stage.<br>
+            4) Application: We also provide the  optimal observation timing that maximizes the value of information.
+            These findings are general and can be applied to a broad range of applications, e.g., in maintenance scheduling.
+            <br><br>
+            <b>Journal:</b> submitted to <i>INFORMS Journal on Computing</i> (1/2016), second round.
+            <hr align="left" width="70%"><br>
+        </div>
+        
+        
+    </li>
+    
+    
+    <li>
+        <i>Robust Optimization for Decision−Dependent Uncertainties
+        </i><br>(with K. Sharma)
+        <br>submitted (2015).
+        <br>&nbsp;
+        <a onclick="toggle_visibility('ddu');"><u>Details</u></a>
+        <div id="ddu"><b>Summary:</b>
+            The efficacy of robust optimization methods has recently been extended to multistage problems with uncertainties bound in predetermined sets.
+            Although current frameworks are general, they cannot accurately describe problems in which uncertainties are affected by previous decisions.
+            This paper takes a step toward generalizing robust optimization approaches to problems with decision-dependent uncertainties, which we show to be NP-complete.
+            For this, we provide reformulations of robust optimization problems with uncertainty sets that are functions of decisions.
+            To this end, we advance tractable programs for a broad range of objective function, constraint, and uncertainty set structures.
+            <br><br>
+            <b>Contributions:</b>
+            1) Method: This is the first robust optimization framework for decision-dependent uncertainties in a general setting.<br>
+            2) Method: The provided reformulations can be solved with off-the-shelf algorithms.<br>
+            3) Application: To illustrate the advantages of this framework, a facility location  and a shortest path problem are discussed, where the first-stage decisions affect the second-stage uncertainties.
+            <br><br>
+            <b>Journal:</b> submitted to <i>Operations Research</i> (12/2015).
+            <hr align="left" width="70%"><br>
+        </div>
+        
+        
+    </li>
+    <!--
+     <li>
+     <i>Robust Multi-Objective Clustering
+     </i><br>(with A. Zheng)
+     <br>submitted (2016).
+     <br>&nbsp;</li>
+     -->
+</ol>
+
+
+	<h2><font color="#993333">Publications in Operations Research</font><font color="#333" size="2"> (peer reviewed)</font></h2>
+
+	<ol>
+        
+        <li>
+	    <i>On Correlations in IMRT Planning Aims
+            </i><br>(with I. Das and A. Roy)
+            <br>Journal of Applied Clinical Medical Physics, forthcoming (2016).
+            <br>&nbsp;
+            <a onclick="toggle_visibility('imrt_stats');"><u>Details</u></a>
+            <div id="imrt_stats" ><b>Summary:</b> Robust statistical tools are developed to study correlations amongst radiation therapy evaluation criteria and how their relaxation impacts the overall plan.
+                100 Head-and-neck cancer cases, that were planned using the same planning system and protocol, are analyzed for tumor volume, brainstem, and spinal cord.
+                Despite the imposed institutional and international recommendations, significant variations amongst the criteria were identified. Even though these aims are evaluated independently, sizable negative correlations amongst them are possible, indicating that some goals cannot be satisfied concurrently.
+                <br><br>
+                <b>Contributions:</b> 1) Method: We develop a robust analytics method for radiation plan evaluation, where conclusions are not sensitive to sample size or variations within the set.<br>
+                2) Application: This is the first analysis of a large set of clinical data that quantitatively reports negative correlations amongst planning goals, indicating that some goals cannot be satisfied concurrently, questioning established recommendations.
+                <br><br>
+                <b>Journal:</b> impact factor: 1.172 (2014), established 2000.
+            <hr align="left" width="70%"><br>
+            </div>
+
+        </li>
+        
+
+        <li>
+            <i>Categorizing Users of Cloud Services
+            </i><br>(with J. Dunn and G. Klimeck)
+            <br><a href="http://pubsonline.informs.org/doi/10.1287/serv.2016.0128" target="_blank">INFORMS Service Science, <b>8</b>(1), 59-70 (2016).</a>
+            <br>&nbsp;
+            <a onclick="toggle_visibility('nanohub');"><u>Details</u></a>
+            <div id="nanohub"><b>Summary:</b> A framework for analysis of large-scale behavioral data is developed. Our objectives are (a) a computationally lean method to cope with large data sets and (b) to be free of assumptions of the structure of data. Three data-driven metrics are introduced based only on the size and volume of data, using nested arrangements of zero and infinity norms.
+                We apply this method to analyze the behavior of users of nanoHUB services, the world’s largest cyber-infrastructure for nanotechnology research and education.
+                The method clearly disperses two previously unknown categories of power and casual users.
+                Moreover, new subcategories of classroom users are identified. These findings allow policy makers to optimally tailor educational programs to such uncoordinated groups.
+                <br><br>
+                <b>Contributions:</b> 1) Method: The unsupervised learning method is computationally attractive for large data sets and does not require specific data structure.<br>
+                2) Application: Given nanoHUB’s size, its leading role in educational services, and the approach’s data-driven nature, this method is applicable to a wide range of cloud services.<br>
+                3) Application: This method is actually implemented on the realtime data base and serves to report and customize services.
+                <br><br>
+                <b>Journal:</b> impact factor: 0.711 (2016), established 2009.
+                <hr align="left" width="70%"><br>
+            </div>
+        </li>
+<!--        
+        <li>
+            <i>Unexpected Correlations Amongst Recommended Planning Aims
+            </i><br>(with I. Das and A. Roy)
+            <br>Int. J. of Radiation Oncology, Biology, Physics, <b>93</b>, 3, E609 (2015).
+            <br>&nbsp;</li>
+-->
+
+<!--        
+        
+        <li>
+            <i>Large-Scale DVH Quality Study: Correlated Aims Lead Relaxations
+            </i><br>(with I. Das and A. Roy)
+            <br>Medical Physics <b>42</b>(6), 3457 (2015).
+            <br>&nbsp;</li>
+        
+
+        <li>
+            <i>A Retrospective Correlation Analysis On Dose-Volume Control Points and Treatment Outcomes
+            </i><br>(with I. Bucchus, D. Cutright, B. Mittal, T. Refaat, A. Roy, and V. Sathiaseelan)
+            <br>Medical Physics <b>42</b>(6), 3347 (2015).
+            <br>&nbsp;</li>
+--> 
+       
+<!---- above added 2016------>
+
+        <li>
+            <i>A hybrid approach to beam angle optimization in intensity-modulated radiation therapy
+            </i><br>(with D. Bertsimas, V. Cacchiani, and D. Craft)
+            <br><a href="http://www.sciencedirect.com/science/article/pii/S0305054812001414" target="_blank">Computers & Operations Research, <b>40</b>(9)  2187–2197 (2013).</a>
+            <br>&nbsp;
+        <a onclick="toggle_visibility('bao');"><u>Details</u></a>
+        <div id="bao"><b>Summary:</b> In radiation therapy planning, there are two key decisions: selection of beam angles and optimal beam intensities.
+            Often, these two decisions are made separately, even though they are mutually dependent.
+            We develop an algorithm which automatically selects the beam angles and computes the beam intensities. Since the size of this problem is computationally intractable for clinical cases, we propose a hybrid method, which combines a simulated annealing procedure of Bertsimas and Nohadani (2010) with the knowledge of the gradient. Gradient information is used to quickly find a local minimum, while simulated annealing allows to search for global minima.
+            The beam intensities are optimized by solving a Linear Programming model.
+            Experimental results are performed on phantom and real-life case studies, showing the advantages that come from our approach.
+            <br><br>
+            <b>Contributions:</b>
+            1) Method: Previous approaches are computationally not tractable, while this method performs for clinical cases in practical times.<br>
+            2) Application: While the clinical practice relies on expert’s decision on “good’’ beam angle, this method offers optimal solutions.<br>
+            3) Application: Previous work required a set of candidate angles, whereas this method optimized over the entire range. Indeed, it dynamically explores angles and discretizes to the maximum accuracy of the linear accelerator machine.<br>
+            <br>
+            <b>Journal:</b> impact factor: 1.988, 5-year impact factor: 2.382.
+            <hr align="left" width="70%"><br>
+        </div>
+ 
+	<li>
+
+
+
+        <i>Laser and Photonic Systems Integration: Emerging Innovations and Framework for Research and Education
+<!--        </i><br>(with A. Bechar, A. Bement, B. Bidanda, P. Bermel, S. Bukkapatnam,A. Capponi, X. Chen, C. Cheng, G. Cheng,  M. Dantus, A. Donmez,   M. Jones, R. Koubek, S. Kumara, S. Lee, M. Lehto, A. Liu, P. Lorraine,  S. Nof, D. Nolte, R. Proctor, C. Reed, H. Sardesai, L. Shi, Y. Shin, J. Wachs, A. Weiner, T. Weldon,  X. Zhang)
+-->
+        </i><br>(with S. Nof, G. Cheng, A. Weiner, et. al)
+        <br><a href="http://onlinelibrary.wiley.com/doi/10.1002/hfm.20555/full" target="_blank">Human Factors & Ergonomics in Manufacturing & Service Industries, <b>23</b> 483-516 (2013).</a>
+        <br>&nbsp;
+        <a onclick="toggle_visibility('photon');"><u>Details</u></a>
+        <div id="photon"><b>Summary:</b>
+            The key emerging innovations in laser and photonics systems are reviewed as well as their design and integration.  The important role of robustness in manufacturing is discussed.
+<!--            The article concludes with implications and an agenda for education, research and development, and policy needs, with a focus on human, society, science, and technology integration.-->
+            <br><br>
+            <b>Significance of my contribution:</b>
+            1) Method: An overview of a systematic approach to manufacturing in the presence of uncertainty.<br>
+            2) Application: Photonics and ultrafast lasers.
+            <br><br>
+            <b>Journal:</b> impact factor: 0.462.
+            <hr align="left" width="70%"><br>
+        </div>
+
+
+    </li>
+ 
+ 
+
+	<Li> 
+	<i>Improving thin film manufacturing yield with robust optimization
+	</i><br>(with J. Birge and F. K&auml;rtner)
+	<br><a href="http://ao.osa.org/abstract.cfm?URI=ao-50-9-C36" target="_blank">Applied Optics, <b>50</b>(9) C36-C40 (2011).</a>
+	<br>&nbsp;
+    <a onclick="toggle_visibility('ar');"><u>Details</u></a>
+    <div id="ar"><b>Summary:</b>
+        A deterministic robust optimization algorithm is introduced to account for statistical variations in coating. Through Monte Carlo simulations of manufacturing, we compare the performance of a proof-of-concept antireflection (AR) coating designed with our robust optimization to that of a conventionally optimized AR coating.
+        
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: The nature of manufacturing variations was leveraged to reduce the size of the second order cone problem, resulting in considerable speedup.<br>
+        2) Application:  The robust algorithm produces an AR coating with a significantly improved yield.<br>
+        <br><br>
+        <b>Journal:</b> impact factor:1.649 (2013).
+        <hr align="left" width="70%"><br>
+    </div>
+    
+    </li>
+
+	<li>
+	<i>Motion management with phase–adapted 4D–optimization
+	</i><br>(with T. Bortfeld, and J. Seco)
+	<br><a href="http://stacks.iop.org/0031-9155/55/5189" target="_blank">Physics in Medicine and Biology <b>55</b>, 5189-5202, (2010).</a><sup>*</sup>
+    <br> * featured in <a href="http://medicalphysicsweb.org/cws/article/research/43831" target="_blank">medicalphysicsweb.org</a>.
+	<br>&nbsp;
+    <a onclick="toggle_visibility('4d');"><u>Details</u></a>
+    <div id="4d"><b>Summary:</b>
+        Motion uncertainties can significantly degrade an otherwise optimized treatment plan, particularly for lung cases.
+        We present a spatiotemporal optimization method, which takes into account all phases of breathing and provides a 4D-optimal plan. Monte Carlo dose calculations are employed for highest dosimetric accuracy.
+        We demonstrate the performance with clinical lung cancer cases and compare the outcomes to conventional gating techniques.
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: The first robust method that takes the full information on breathing phases into account in a computationally tractable fashion.<br>
+        2) Method: Practical delivery restrictions are directly modeled by linear constraints, allowing a higher delivery efficiency and a decisively shorter delivery time.<br>
+        3) Application: We report significant improvements in target coverage and in healthy tissue sparing at a comparable computational expense.<br>
+        4) Application: he resulting plans are robust against irregular breathing, as opposed to current gating methods.
+<br>
+        <br><br>
+        <b>Journal:</b> impact factor: 2.761 (2014).
+        <hr align="left" width="70%"><br>
+    </div>
+    
+
+    </li>
+
+	<li>
+	<i>The continuum of 3D to 4D treatment delivery
+	</i><br>(with T. Bortfeld)
+	<br><a href="./iccr.pdf" target="_blank">Proc. of XVI-th ICCR, Amsterdam (2010).</a>
+	<br>&nbsp;
+    <a onclick="toggle_visibility('iccr');"><u>Details</u></a>
+    <div id="iccr"><b>Summary:</b>
+        4D radiation delivery in principle offers greater flexibility but also greater challenges, both computational and practical. We develop a computational framework to open up some of the 4D flexibility without going all the way to 4D delivery. We apply our method to lung cases.        <br><br>
+        <b>Contributions:</b>
+        1) Method: A rigorous method to study the spectrum of 3D to full 4D method, allowing to include the benefits of 4D while maintaining the efficiency of 3D.
+<br>
+        2) Application: Even for very complicated cases it is not necessary to do full unconstrained 4D delivery. This offers clinicians a practical measure for 4D inclusion at marginal overhead.<br>
+        <br><br>
+        <b>Journal:</b> published every 3 years. <!--Paper was accepted for oral presentation.-->
+        <hr align="left" width="70%"><br>
+    </div>
+    
+</li>
+
+
+<!--
+	<ul>
+	<li>
+	<i>
+	</i><br>(with T. Bortfeld, and J. Seco)
+	<br><a href="" target="_blank">Physics in Medicine and Biology <b>54</b> 3421-3432 (2009).</a>
+	<br>&nbsp;</li>
+
+	<ul>
+	<li> 
+	<i>
+	</i><br>(with T. Bortfeld, and J. Seco)
+	<br><a href="" target="_blank">Physics in Medicine and Biology <b>54</b> 3421-3432 (2009).</a>
+	<br>&nbsp;</li>
+
+-->
+
+
+	<li> 
+	<i>Robust Optimization with Simulated Annealing
+	</i><br>(with D. Bertsimas)
+	<br><a href="http://dx.doi.org/10.1007/s10898-009-9496-x" target="_blank"> Journal of Global Optimization <b>48</b>, 2, 323 (2010).</a>
+	<br>&nbsp;
+    <a onclick="toggle_visibility('rsa');"><u>Details</u></a>
+    <div id="rsa"><b>Summary:</b>
+        A robust simulated annealing algorithm is introduced that does not require any knowledge of the problems structure.
+        While this nonconvex and global optimization method improves the performance as well as the robustness, it also warrants for a global optimum which is robust against data and implementation uncertainties.
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: This is the first robust global optimization algorithm for arbitrary objective functions.<br>
+        2) Method: A new measure of robustness is introduced that accounts for both local and neighborhood sensitivity.<br>
+        3) Application: In many engineering applications, solutions are not explicitly known, hence require optimization methods that are independent of the function structure.<br>
+        4) Application: For a high-dimensional nanophotonic problem, this method shows significant improvements in efficiency as well as in actual optimality.
+        <br><br>
+        <b>Journal:</b> impact factor: 1.287 (2014)
+        <hr align="left" width="70%"><br>
+    </div>
+    
+    </li>
+
+<li>
+    <i>Designing Coatings in the Presence of Manufacturing Errors
+    </i><br>(with J. Birge, and F. K&auml;rtner)
+    <br><a href="./coating.pdf" target="_blank">Optical Interference Coatings, TuA2 (2010).</a>
+    <br>&nbsp;
+    <a onclick="toggle_visibility('coat');"><u>Details</u></a>
+    <div id="coat"><b>Summary:</b>
+        A robust optimization method is demonstrated, which attempts to account for expected coating errors. Monte Carlo simulations show the robust approach improves manufacturing yields relative to conventional optimization.
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: The structure of the photonic transfer equations is exploited to speedup the nonconvex robust optimization approach.<br>
+        2) Application: Manufacturing yields in double-chirped mirrors were very low (10%). With this method, they increased to 90%.
+        <br><br>
+        <b>Journal:</b> published annually.
+        <hr align="left" width="70%"><br>
+    </div>
+    
+</li>
+
+
+	<li>
+	<i>Nonconvex robust optimization for problems with constraints
+	</i><br>(with D. Bertsimas and K.M. Teo)
+	<br><a href="./rob_opt_constr.pdf" target="_blank">INFORMS Journal on Computing, <b>22</b> 44-58 (2010).</a>
+	<br>&nbsp;
+    <a onclick="toggle_visibility('ro_c');"><u>Details</u></a>
+    <div id="ro_c"><b>Summary:</b>
+        A new robust optimization method is introduced for problems with objective functions that may be computed via numerical simulations and incorporate constraints that need to be feasible under perturbations.
+        A descent direction for the robust problem is computed, allowing to find the robust local minimum.
+        We generalize the algorithm further to model parameter uncertainties.
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: This is the first nonconvex robust optimization method for constraint problems. without known structure.<br>
+        2) Method: This method is tractable for problems without known structure.<br>
+        3) Application: This is the first deterministic robust optimization approach to radiation therapy planning in the presence of setup errors.
+<br>
+        <br><br>
+        <b>Journal:</b> impact factor: 1.246 (2015), 5-year impact factor: 1.504
+        <hr align="left" width="70%"><br>
+    </div>
+    
+    </li>
+
+	<li>
+	<i>Robust nonconvex optimization for simulation-based problems
+	</i><br>(with D. Bertsimas and K.M. Teo)
+	<br><a href="./rob_opt_gen.pdf" target="_blank">Operations Research, <b>58</b> (1): 161. (2010).</a>
+<!--also available on <a href="http://www.optimization-online.org/DB_HTML/2007/08/1756.html"><i>Optimization Online</i></a> -->
+	<br>&nbsp;
+    <a onclick="toggle_visibility('rls');"><u>Details</u></a>
+    <div id="rls"><b>Summary:</b>
+        Although the theory of robust convex optimization has taken significant strides over the past decade, all approaches fail if the underlying cost function is not explicitly given; it is even worse if the cost function is nonconvex. In this work, we present a robust optimization method for unconstrained problems with a nonconvex cost function as well as for problems based on simulations, such as large partial differential equations solver, response surface, and Kriging metamodels. This technique can be employed for most real-world problems.
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: This is the first nonconvex robust optimization approach, which has been applied to many real-world problems by us and many others.<br>
+        2) Method: The generalization addresses nonconvex optimization problems under both implementation errors and parameter uncertainties.<br>
+        3) Application: In an electromagnetic multiple scattering problem of aperiodically arranged dielectrics, relevant to nanophotonic design, our robust solution significantly lowered the worst-case cost, while maintaining optimality.
+        <br><br>
+        <b>Journal:</b> impact factor: 1.777, 5-year impact factor:2.838
+        <hr align="left" width="70%"><br>
+    </div>
+    
+    </li>
+
+	<li> 
+	<i>Dosimetry Robustness with Stochastic Optimization
+	</i><br>(with T. Bortfeld, B. Martin, and J. Seco)
+	<br><a href="./dose_rob.pdf" target="_blank">Physics in Medicine and Biology <b>54</b> 3421-3432 (2009).</a>
+	<br>&nbsp;
+    
+    <a onclick="toggle_visibility('dose');"><u>Details</u></a>
+    <div id="dose"><b>Summary:</b>
+        All radiation therapy planning relies on accurate dose calculation.
+        A robust optimization method is introduced which handles dosimetric errors and warrants for high-quality IMRT plans. Unlike other dose error estimations, we do not rely on the detailed knowledge about the sources of the uncertainty and use a generic error model. We demonstrate the method on a clinical case of lung cancer.
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: The generic error models allows to cope with a large variety of error sources.<br>
+        2) Method: The method merges the higher efficiency of low-accuracy dose calculation approaches with the high-accuracy of computationally intractable Monte-Carlo dose calculations.<br>
+        3) Application: The resulting plans are more robust against dosimetric errors and are clinically acceptable.<br>
+        4) Application: The achieved speedup will allow computationally extensive multi-criteria or beam-angle optimization approaches to warrant for dosimetrically relevant plans.
+        <br><br>
+        <b>Journal:</b> impact factor: 2.761 (2014).
+        <hr align="left" width="70%"><br>
+    </div>
+    
+    </li>
+
+	<li>
+	<i>Robust Chirped Mirrors
+	</i><br>(with D. Bertsimas, J. Birge, and F. K&auml;rtner)
+	<br><a href="./mirrors.pdf" target="_blank">Applied Optics <b>47</b> 2630-2636 (2008).</a>
+	<br>&nbsp;
+    <a onclick="toggle_visibility('chirp');"><u>Details</u></a>
+    <div id="chirp"><b>Summary:</b>
+        We present a robust optimization method for designing dispersion-compensating chirped mirrors  systems that are used in ultrashort pulse lasers. Possible implementation errors in layer thickness are taken into account within an uncertainty set. The algorithm identifies worst-case scenarios with respect to reflectivity as well as group delay.
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: Robust optimization for transfer matrix problems, as in photonic applications.<br>
+        2) Method: Robust optimization in Fourier Space to minimize error correlation.<br>
+        3) Application: Method improves the robustness and warrants a high manufacturing yield, even when the encountered errors are larger than anticipated.<br>
+        4) application: Designs were implemented in commercial setting.
+        <br><br>
+        <b>Journal:</b> impact factor:1.649 (2013).
+        <hr align="left" width="70%"><br>
+    </div>
+    
+    </li>
+
+
+	<li>
+	<i>Robust optimization in electromagnetic scattering problems
+	</i><br>(with D. Bertsimas and K.M. Teo)
+	<br><a href="./rob_opt.pdf" target="_blank">Journal of Applied Physics <b>101</b>, 074507 (2007).
+	</a><br>&nbsp;
+    <a onclick="toggle_visibility('goto');"><u>Details</u></a>
+    <div id="goto"><b>Summary:</b>
+        Often, the physical properties of a system can only be described by numerical simulation. Optimization of such systems is usually accomplished heuristically without taking errors into account.
+        We present a robust optimization method for electromagnetic scattering problems with large degrees of freedom and report on results when this technique is applied to optimization of aperiodic dielectric structures.
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: For the nominal problem, 2 methods are developed i) a gradient-free stochastic algorithm based on the simultaneous perturbation stochastic approximation  (SPSA); and ii) a modified gradient descent algorithm based on solving an adjoint linear system.<br>
+        2) Method: For the robust problem, a local search algorithm is developed.<br>
+        3) Application: Based on a two-dimensional Helmholtz equation for lossless dielectric scatterers, hence scales with frequency and is  relevant to nanophotonics.<br>
+        4) Application: The spatial configuration of 50 dielectric scatterers is robustly optimized, showing improved robustness to prototyping and manufacturing errors.
+        <br><br>
+        <b>Journal:</b> impact factor: 2.183 (2014).
+        <hr align="left" width="70%"><br>
+    </div>
+    
+    </li>
+
+<li>
+    <i>Adaptive design of nano-scale dielectric structures for photonics
+    </i><br>(with Y. Chen, S. Haas, A.F.J. Levi, W. Li, and R. Yu)
+    <br><a href="./adaptive.pdf" target="_blank">Journal of Applied Physics <b>94</b> (9), 6065 (2003).
+    </a><br>&nbsp;
+    <a onclick="toggle_visibility('die');"><u>Details</u></a>
+    <div id="die"><b>Summary:</b>
+        For the design of nanoscale dielectric structures for photonic applications,
+        two complementary algorithms are introduced.
+        The first approach uses adaptive local random updates and progressively adjusts individual dielectric layer widths.
+        The second approach is based on global updating functions in which large subgroups of layers are adjusted simultaneously.
+        Both schemes are applied to obtain specific target responses of the transmission function within selected energy windows.
+        <!--, such as discontinuous cutoff or power-law decay filters close to a photonic band edge. -->
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: The local approach relies on an annealing process with constraints and is improved using Metropolis criterion.<br>
+        2) Method: The global approach is based on an analytical expansion of the strength function, fixing the leading order expansion coefficients by boundary conditions, and adjusting the remaining ones by numerical optimization.<br>
+        3) Application: Intentionally breaking translational symmetry leads to improved functionality.<br>
+        4) Application: These algorithms are effective tools in the custom design of nanoscale photonic  structures.
+        <br><br>
+        <b>Journal:</b> impact factor: 2.183 (2014).
+        <hr align="left" width="70%"><br>
+    </div>
+    
+</li>
+
+<A NAME="phys_section">
+
+
+<h2><font color="#993333">Publications in Physics</font><font color="#333" size="2"> (peer reviewed)</font></h2>
+
+
+
+
+<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*In revision; please contact me for a copy
+-->
+
+<li>
+    <i>Magnetic Bose glass phases of coupled antiferromagnetic dimers with site dilution
+    </i><br>(with S. Haas, T. Roscilde, and R. Yu )
+    <br><a href="http://prb.aps.org/abstract/PRB/v82/i13/e134437" target="_blank">Physical Review B <b>82</b>, 134437 (2010).</a>
+    <br>&nbsp;</li>
+
+
+
+	<li>
+	<i>Bose-Glass phases in disordered quantum magnets
+	</i><br>(with S. Haas and S. Wessel)
+	<br><a href="./bg.pdf" target="_blank">Physical Review Letters <b>95</b>, 227201 (2005).
+	</a><br>&nbsp;</li>
+
+	<li>
+	<i>Quantum phase transitions in coupled dimer compounds
+	</i><br>(with S. Haas and S. Wessel)
+	<br><a href="./pressure.pdf" target="_blank">Physical Review B <b>72</b>, 024440 (2005).
+	</a><br>&nbsp;</li>
+
+	<li>
+	<i>Universal scaling at field-induced magnetic phase transitions
+	</i><br>(with S. Haas, B. Normand, and S. Wessel)
+	<br><a href="./exponent.pdf" target="_blank">Physical Review B <b>69</b>, 220402(R) (2004).
+	</a><br>&nbsp;</li>
+
+
+	<li>
+	<i>Pressure- and field-induced manetic quantum phase transitions in TlCuCl<sub>3</sub>
+	</i><br>(with S. Haas, M. Matsumoto, B. Normand, N. Sigrist, M. Rice, and S. Wessel)
+	<br><a href="./TlCuCl3.pdf" target="_blank">Journal of Physics: Condensed Matter 
+	<b>16</b>, No 11, S867-S873 (2004).
+	</a><br>&nbsp;</li>
+
+	<li>
+	<i>Photonuclear Reactions of Three-Nucleon Systems 
+	</i><br>(with W. Sandhas and W. Shadow)
+	<br><a href="./polari.pdf" target="_blank">Physical Review C <b>63</b>, 044006 (2001).
+	</a><br>&nbsp;</li>
+	<DL>
+
+    </ol>
+
+
+
+	<h2><font color="#993333">Book Chapter:</font></h2>
+	<ul>
+
+	<li>
+	<i>Optimal Device Design
+	</i><br>
+    <a href="http://www.cambridge.org/uk/catalogue/catalogue.asp?isbn=9780521116602" target="_blank"> Cambridge University Press (2010),</a><br>
+    editted by A.F.J. Levi and S. Haas.<br>
+    Chapter 6: <i>Robust optimization in high dimensions</i>
+    <br>(with D. Bertsimas). 
+	</a><br>&nbsp;</li>
+
+
+	</ol>
+	<h2><b><font color="#993333">Thesis:</font></b></h2>
+	<ul>
+
+	<li>
+	<i>Quantum Phase Transitions in Quantum Magnets
+	</i><br><a href="thesis.pdf" target="_blank">Dissertation, University of Southern California, Los Angeles	(2005).
+	</a><br>&nbsp;</li>
+
+	<li>
+	<i>Calculation of the Polarization Observables of the radiative capture d + p -> 3H + gamma
+	</i><br><a href="diplom.pdf" target="_blank">Diploma Thesis, University Bonn (2000).
+	</a><br>&nbsp;</li>
+	<DL>
+	</ul>
+
+<br>
+
+
+
+
+<center>(last update: July 2016)</center>
+
+
+  </div>  <!-- end content -->
+
+  <div id="sidebar">
+	<br><br><br>
+<img class="home" src="../img/worst.gif">
+<img class="home" src="../img/4d.gif">
+  </div>   <!-- end sidebar -->
+
+  <div class="clear_element"></div>
+
+</div> <!-- end wrapper --> 
+
+<div id="footer">
+</div>
+
+
+
+</body>
+</html>

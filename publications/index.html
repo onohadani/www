@@ -1,0 +1,1191 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Omid Nohadani</title>    
+    
+    <link href="mystyle.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript">
+            <!--
+            function toggle_visibility(id) {
+                var e = document.getElementById(id);
+                if(e.style.display == 'block')
+                e.style.display = 'none';
+                else
+                e.style.display = 'block';
+            }
+        //-->
+            </script>
+
+</head>
+
+<body>
+
+<div id="header">
+    <!--    <a  id="NUlink" href="http://www.northwestern.edu"></a> -->
+</div>
+
+<div id="wrapper" class="home">
+
+<div id="nav">
+    <a class="active" id="first" href="http://users.iems.northwestern.edu/~nohadani">HOME</a>
+    <a href="../res.html">RESEARCH</a>
+    <a href="../publications/">PUBLICATIONS</a>
+    <a href="../teaching.html">TEACHING</a>
+    <a href="../cv.html">CV</a>
+    <a id="last"  href="../students.html">STUDENTS</a>
+</div>
+
+  <div id="content">
+
+<!-- EXPLANATION
+This list is divided into publications in
+<A HREF="#or_section">Operations Research</A> and
+<A HREF="#phys_section">Physics</A>.<br>
+The OR related publications can be expanded for more Details.<br>
+You can also <a href="./index_dyn.html">expland all</a>.<br><br>
+<font color="#993333"><i>Conference Proceedings</i></font> are not numbered
+(<a href="./index_dyn_c.html">hide all</a>).
+
+
+<A NAME="or_section"> -->
+<!--
+<h2><font color="#993333">Submitted Papers</font><font color="#333" size="2"></font></h2>
+
+<ol>
+    <li>A. Roy, J. Seco, O. Nohadani.
+        <i>Robust Predictive IMRT Planning,
+        </i>
+        submitted (2016).
+        <br>&#62;
+        <a onclick="toggle_visibility('rob_pred');"><u>Details</u></a>
+        <div style="display:none" id="rob_pred"><b>Summary:</b>
+            Spatiotemporal tumor changes reduce the effectiveness of fractionated radiation therapy. We study a robust predictive method that can support treatment planning when spatiotemporal changes occur with uncertain progression
+            A multi-scenario multi-time method is developed that hedges amongst these scenarios and provides plans that are on average equally good to current practice and remain acceptable even in the worst case. Two clinical lung cancer cases serve as proof of concept.
+            <br><br>
+            <b>Contributions:</b>
+            1) Method: Experts’ knowledge is directly incorporated into adaptive planning in a robust fashion, i.e., diverging opinions are accounted for.<br>
+            2) Method: Offers a unifying framework for conventional, adaptive, and robust adaptive planning.<br>
+            3) Application: The incorporation of multiple time-resolved datasets shows significantly improved treatment goals for patients with spatiotemporal changes during radiotherapy.<br>
+            4) Application: The progress of chemotherapy can be accounted for into the radiation planning process, resulting plans withstands uncertainties, even in worst-case scenarios.
+            <br><br>
+            <b>Journal:</b> submitted to <i>Physics in Medicine and Biology</i> (5/2016), second round.
+            <hr align="left" width="70%"><br>
+        </div>
+        
+    </li>
+ -->
+ <!--
+      <li>
+     O. Nohadani, A. Zheng.
+     <i>Robust Multi-Objective Clustering,</i>
+     submitted (2016).<sup><b>*</b></sup>INFORMS Undergraduate Research Award 2015, 2nd place.
+     <br>&#62;
+     <a onclick="toggle_visibility('rmoc');"><u>Details</u></a>
+     <div style="display:none" id="rmoc"><b>Summary:</b>
+         A multi-objective method is proposed that leverages robust optimization for hierarchical clustering (rMOC). rMOC chooses clusters based on a weighted sum of data-intrinsic objective functions, determining a threshold that is most robust to uncertainties in these weights. We compare this method to K-means and Gaussian mixture models. In terms of misassignment rate, rMOC outperforms both other methods on several benchmark datasets.
+         <br><br>
+         <b>Contributions:</b>
+         
+         1) Method: Both reference methods require solving an NP-hard problem.
+         In contrast, rMOC exhibits <i>O(m f(n))</i> complexity for data size <i>n</i>, <i>m</i> candidate thresholds, and user-supplied objective functions with complexity <i>f(n)</i>.<br>
+         2) Method: rMOC can process data sequentially, reducing memory usage to a constant.<br>
+         3) Application: rMOC is used on data from nanoHUB, a nanotechnology research web platform. Two new categories are consistently identified, offering insights into actual user behavior.<br>
+        4) Application: This unsupervised learning method is generic, independent of data structure, and scales well, hence is suitable for a large variety of applications and can be enhanced by modular application of dimensionality reduction.
+
+         <br><br>
+         <b>Journal:</b> submitted to <i>IEEE Transactions on Information Theory<\i> (2016).
+         <hr align="left" width="70%"><br>
+     </div>
+      </li>
+</ol>
+
+-->
+
+	<h2><font color="#993333">Publications</font><font color="#333" size="2"></font></h2>
+
+<h3><font color="#993333">Operations Research:</font><font color="#333" size="2"></font></h3>
+
+	<ol>
+
+
+<li>
+    C. Bandi, E. Han, and O. Nohadani.
+    <i>Sustainable Inventory with Robust Periodic-Affine
+        Policies and Application to Medical Supply Chains,</i>
+    <a href="./nohadani_pa.pdf" target="_blank">Management Sciene (2019)</a>, <a href="https://arxiv.org/abs/1806.06744" target="_blank">[arXiv]</a>.
+    <br>&#62;
+    <a onclick="toggle_visibility('qnet');"><u>Details</u></a>
+    <div style="display:none" id="qnet"><b>Abstract:</b>
+        We introduce a new class of adaptive policies called <i>periodic-affine policies</i>, that allows a decision maker to optimally manage and control large-scale newsvendor networks in the presence of uncertain demand without distributional assumptions.
+        These policies are data-driven and model many features of the demand such as correlation, and remain robust to parameter mis-specification.
+        We present a model that can be generalized to multi-product settings and extended to multi-period problems.
+        This is accomplished by modeling the uncertain demand via sets.
+        In this way, it offers a natural framework to study competing policies such as base-stock, affine, and approximative approaches with respect to their profit, sensitivity to parameters and assumptions, and computational scalability.
+        We show that the periodic-affine policies are sustainable, i.e. time consistent, because they warrant optimality both within subperiods and over the entire planning horizon.
+        This approach is tractable and free of distributional assumptions, and hence, suited for real-world applications.
+        We provide efficient algorithms to obtain the optimal periodic-affine policies and demonstrate their advantages on the sales data from one of India's largest pharmacy retailers.
+        
+        <br><br>
+        <hr align="left" width="70%"><br>
+    </div>
+</li>
+
+<li>
+    D. Bertsimas and O. Nohadani.
+    <i>Robust Maximum Likelihood Estimation,</i>
+    <a href="./nohadani_rmle.pdf" target="_blank">INFORMS Journal on Computing (2019)</a>.
+    <br>&#62;
+    <a onclick="toggle_visibility('rmle');"><u>Details</u></a>
+    <div style="display:none" id="rmle"><b>Abstract:</b>
+        In many applications, statistical estimators serve to derive conclusions from data, for example in finance, medical decision-making and clinical trials.
+        However, the conclusions are typically dependent on uncertainties in the data.
+        We use robust optimization principles to provide robust
+        maximum likelihood estimators that are protected against data errors.
+        Both types of input data errors are considered: a) adversarial type, modeled using the notion of uncertainty sets,
+        and b) probabilistic type, modeled by distributions.
+        We provide efficient local and global search algorithms to compute the robust estimators and discuss them in detail for the case of multivariate normally distributed data.
+        The estimator performance is demonstrated on two applications.
+        First, using computer simulations, we demonstrate that the proposed estimators are robust against both types of data uncertainty and provide more accurate estimates, compared to classical estimators which degrade significantly, when errors are encountered.
+        We establish a range of uncertainty sizes, for which robust estimators are superior.
+        Second, we analyze deviations in cancer radiation therapy planning.
+        Uncertainties amongst plans are caused by patients' individual anatomies
+        and the trial-and-error nature of the process.
+        When analyzing a large set of past clinical treatment data,
+        robust estimators offer more reliable decisions when applied to a large set of past treatment plans.
+        <br><br>
+        <hr align="left" width="70%"><br>
+    </div>
+</li>
+
+<li>
+    O. Nohadani, K. Sharma.
+    <i>Optimization under Decision-Dependent Uncertainty,</i>
+    <a href="./nohadani_ro_ddu.pdf" target="_blank"> SIAM Journal on Optimization, <b<28</b>(2), 1773–1795 (2018)</a>, <a href="https://arxiv.org/abs/1611.07992" target="_blank">[arXiv]</a>.
+    <br>&#62;
+    <a onclick="toggle_visibility('ddu');"><u>Details</u></a>
+    <div style="display:none" id="ddu"><b>Abstract:</b>
+        The efficacy of robust optimization spans a variety of settings with uncertainties bounded in predetermined sets.
+        In many applications, uncertainties are affected by decisions and cannot be modeled with current frameworks.
+        This paper takes a step towards generalizing robust linear optimization to problems with decision-dependent uncertainties.
+        In general settings, we show these problems to be NP-complete.
+        To alleviate the computational inefficiencies, we introduce a class of uncertainty sets whose size depends on binary decisions.
+        We propose reformulations that improve upon alternative standard linearization techniques.
+        To illustrate the advantages of this framework, a shortest path problem is discussed, where the uncertain arc lengths are affected by decisions.
+        Beyond the modeling and performance advantages, the proposed notion of proactive uncertainty control also mitigates over conservatism of current robust optimization approaches.
+        <br><br>
+        <hr align="left" width="70%"><br>
+    </div>
+</li>
+
+
+
+<li>
+    J. Unkelbach, M. Alber, M. Bangert, R. Bokrantz, T. Chan, J. Deasy, A. Fredriksson, B. Gorissen, M. van Herk, W. Liu, H. Mahmoudzadeh, O. Nohadani, J. Siebers, M. Witte, and H. Xu.
+    <i>Robust Radiotherapy Planning,</i>
+    <a href="http://iopscience.iop.org/article/10.1088/1361-6560/aae659" target="_blank"> Physics in Medicine and Biology, (2018)</a>.
+    <br>&#62;
+    <a onclick="toggle_visibility('udea');"><u>Details</u></a>
+    <div style="display:none" id="udea"><b>Abstract:</b>
+        Motion and uncertainty in radiotherapy is traditionally handled via margins. The clinical target volume (CTV) is expanded to a larger planning target volume (PTV), which is irradiated to the prescribed dose. However, the PTV concept has several limitations, especially in proton therapy. Therefore, robust and probabilistic optimization methods have been developed that directly incorporate motion and uncertainty into treatment plan optimization for intensity modulated radiotherapy (IMRT) and intensity modulated proton therapy (IMPT). Thereby, the explicit definition of a PTV becomes obsolete and treatment plan optimization is directly based on the CTV. Initial work focused on random and systematic setup errors in IMRT. Later, inter-fraction prostate motion and intra-fraction lung motion became a research focus. Over the past 10 years, IMPT has emerged as a new application for robust planning methods. In proton therapy, range or setup errors may lead to dose degradation and misalignment of dose contributions from different beams ‚Äì a problem that cannot generally be addressed by margins. Therefore, IMPT has led to the first implementations of robust planning methods in commercial planning systems, making these methods available for clinical use. This paper first summarizes the limitations of the PTV concept. Subsequently, robust optimization methods are introduced and their applications in IMRT and IMPT planning are reviewed.
+        <br><br>
+        <hr align="left" width="70%"><br>
+    </div>
+</li>
+
+
+
+<li>
+    M. Ehrgott, A. Holder, and O. Nohadani.
+    <i>Uncertain Data Envelopment Analysis,</i>
+    <a href="https://doi.org/10.1016/j.ejor.2018.01.005" target="_blank"> European Journal of Operational Research, <b>268</b>(1), 231-242 (2018)</a>.
+    <br>&#62;
+    <a onclick="toggle_visibility('udea');"><u>Details</u></a>
+    <div style="display:none" id="udea"><b>Abstract:</b>
+        Data Envelopment Analysis (DEA) is a nonparametric, data driven method to conduct relative performance measurements among a set of decision making units (DMUs). Efficiency scores are computed based on assessing input and output data for each DMU by means of linear programming. Traditionally, these data are assumed to be known precisely. We instead consider the situation in which data is uncertain, and in this case, we demonstrate that efficiency scores increase monotonically with uncertainty. This enables inefficient DMUs to leverage uncertainty to counter their assessment of being inefficient.
+        <br><br>
+        Using the framework of robust optimization, we propose an uncertain DEA (uDEA) model for which an optimal solution determines 1) the maximum pos- sible efficiency score of a DMU over all permissible uncertainties, and 2) the minimal amount of uncertainty that is required to achieve this efficiency score. We show that the uDEA model is a proper generalization of traditional DEA and provide a first-order algorithm to solve the uDEA model with ellipsoidal un- certainty sets. Finally, we present a case study applying uDEA to the problem of deciding efficiency of radiotherapy treatments.
+        <br><br>
+        <hr align="left" width="70%"><br>
+    </div>
+</li>
+
+
+
+
+
+
+<li>
+    O. Nohadani and A. Roy.
+    <i>Robust Optimization with Time-Dependent Uncertainty in Radiation Therapy Planning,</i>
+    <a href="./nohadani_ro_time_depend.pdf" target="_blank">IISE Transactions on Healthcare Systems Engineering, <b>7</b>(2), 81-92 (2017).</a>
+    <br>&#62;
+    <a onclick="toggle_visibility('time_dep');"><u>Details</u></a>
+    <div style="display:none" id="time_dep"><b>Abstract:</b>
+        In the recent past, robust optimization methods have been developed and successfully applied to a variety of single-stage problems. More recently, some of these approaches have been extended to multi-stage settings with fixed uncertainties. However, in many real-world applications, uncertainties evolve over time, rendering the robust solutions suboptimal. This issue is particularly prevalent in medical decision making, where a patient’s condition can change during the course of the treatment. In the context of radiation therapy, changes in cell oxygenation directly affect the response to radiation. To address such uncertain changes, we provide a general robust optimization framework that incorporates time-dependent uncertainty sets in a tractable fashion. Temporal changes reside within a cone, whose projection at each step yields the current uncertainty set. We develop conic robust two-stage linear problems and provide their robust counterparts for uncertain constraint parameters, covering the range of radiation therapy problems. For a clinical prostate cancer case, the time-dependent robust approach improves the tumor control throughout the treatment, as opposed to current methods that lose efficacy at some stage. We show that this advantage does not bear additional risks compared to current clinical methods. For intermediate diagnostics, we provide the optimal observation timing that maximizes the value of information. While these findings are relevant to clinical settings, they are also general and can be applied to a broad range of applications; e.g., in maintenance scheduling.
+        <br><br>
+    </div>
+</li>
+
+
+        <li>
+        A. Roy, I.J. Das, O. Nohadani.
+	    <i>On Correlations in IMRT Planning Aims,</i>
+            <a href="http://www.jacmp.org/index.php/jacmp/article/view/6411/pdf_682" target="_blank">Journal of Applied Clinical Medical Physics, <b>17</b>(6), 44-50 (2016).</a>
+            <br>&#62;
+            <a onclick="toggle_visibility('imrt_stats');"><u>Details</u></a>
+            <div style="display:none" id="imrt_stats" ><b>Summary:</b> Robust statistical tools are developed to study correlations amongst radiation therapy evaluation criteria and how their relaxation impacts the overall plan.
+                100 Head-and-neck cancer cases, that were planned using the same planning system and protocol, are analyzed for tumor volume, brainstem, and spinal cord.
+                Despite the imposed institutional and international recommendations, significant variations amongst the criteria were identified. Even though these aims are evaluated independently, sizable negative correlations amongst them are possible, indicating that some goals cannot be satisfied concurrently.
+                <br><br>
+                <b>Contributions:</b> 1) Method: We develop a robust analytics method for radiation plan evaluation, where conclusions are not sensitive to sample size or variations within the set.<br>
+                2) Application: This is the first analysis of a large set of clinical data that quantitatively reports negative correlations amongst planning goals, indicating that some goals cannot be satisfied concurrently, questioning established recommendations.
+                <br><br>
+<!--                <b>Journal:</b> impact factor: 1.172 (2014), established 2000.
+    -->        <hr align="left" width="70%"><br>
+            </div>
+
+        </li>
+        
+<!-- CONF
+            <ul>
+                <li style="list-style-type: square">
+                    <i>Incorporating Time-Dependent Hypoxia in IMRT Planning
+                    </i><br>(with A. Roy)
+                    <br>Medical Physics, <b>43</b>, 3322 (2016).<sup>*</sup>oral presentation
+                    <br>&nbsp;</li>
+             </ul>
+-->
+
+        <li>
+            O. Nohadani, J. Dunn, G. Klimeck.
+            <i>Categorizing Users of Cloud Services,</i>
+            <a href="http://pubsonline.informs.org/doi/10.1287/serv.2016.0128" target="_blank">INFORMS Service Science, <b>8</b>(1), 59-70 (2016).</a>
+            <br>&#62;
+            <a onclick="toggle_visibility('nanohub');"><u>Details</u></a>
+            <div style="display:none" id="nanohub"><b>Summary:</b> A framework for analysis of large-scale behavioral data is developed. Our objectives are (a) a computationally lean method to cope with large data sets and (b) to be free of assumptions of the structure of data. Three data-driven metrics are introduced based only on the size and volume of data, using nested arrangements of zero and infinity norms.
+                We apply this method to analyze the behavior of users of nanoHUB services, the world’s largest cyber-infrastructure for nanotechnology research and education.
+                The method clearly disperses two previously unknown categories of power and casual users.
+                Moreover, new subcategories of classroom users are identified. These findings allow policy makers to optimally tailor educational programs to such uncoordinated groups.
+                <br><br>
+                <b>Contributions:</b> 1) Method: The unsupervised learning method is computationally attractive for large data sets and does not require specific data structure.<br>
+                2) Application: Given nanoHUB’s size, its leading role in educational services, and the approach’s data-driven nature, this method is applicable to a wide range of cloud services.<br>
+                3) Application: This method is actually implemented on the realtime data base and serves to report and customize services.
+                <br><br>
+<!--                <b>Journal:</b> impact factor: 0.711 (2016), established 2009.
+ -->
+                <hr align="left" width="70%"><br>
+            </div>
+        </li>
+
+<!-- CONF
+
+        <ul>
+        <li style="list-style-type: square">
+            <i>Unexpected Correlations Amongst Recommended Planning Aims
+            </i><br>(with I. Das and A. Roy)
+            <br>Int. J. of Radiation Oncology, Biology, Physics, <b>93</b>, 3, E609 (2015).
+            <br>&nbsp;</li>
+<!-- CONF
+        <li style="list-style-type: square">
+            <i>Large-Scale DVH Quality Study: Correlated Aims Lead Relaxations
+            </i><br>(with I. Das and A. Roy)
+            <br>Medical Physics <b>42</b>(6), 3457 (2015).
+            <br>&nbsp;</li>
+        
+<!-- CONF
+        <li style="list-style-type: square">
+            <i>A Retrospective Correlation Analysis On Dose-Volume Control Points and Treatment Outcomes
+            </i><br>(with I. Bucchus, D. Cutright, B. Mittal, T. Refaat, A. Roy, and V. Sathiaseelan)
+            <br>Medical Physics <b>42</b>(6), 3347 (2015).
+            <br>&nbsp;</li>
+        </ul>
+-->
+ 
+       
+<!---- above added 2016------>
+
+        <li>
+            D. Bertsimas, V. Cacchiani, D. Craft, O. Nohadani.
+            <i>A hybrid approach to beam angle optimization in intensity-modulated radiation therapy,</i>
+            <a href="http://www.sciencedirect.com/science/article/pii/S0305054812001414" target="_blank">Computers & Operations Research, <b>40</b>(9)  2187–2197 (2013).</a>
+            <br>&#62;
+        <a onclick="toggle_visibility('bao');"><u>Details</u></a>
+        <div style="display:none" id="bao"><b>Summary:</b> In radiation therapy planning, there are two key decisions: selection of beam angles and optimal beam intensities.
+            Often, these two decisions are made separately, even though they are mutually dependent.
+            We develop an algorithm which automatically selects the beam angles and computes the beam intensities. Since the size of this problem is computationally intractable for clinical cases, we propose a hybrid method, which combines a simulated annealing procedure of Bertsimas and Nohadani (2010) with the knowledge of the gradient. Gradient information is used to quickly find a local minimum, while simulated annealing allows to search for global minima.
+            The beam intensities are optimized by solving a Linear Programming model.
+            Experimental results are performed on phantom and real-life case studies, showing the advantages that come from our approach.
+            <br><br>
+            <b>Contributions:</b>
+            1) Method: Previous approaches are computationally not tractable, while this method performs for clinical cases in practical times.<br>
+            2) Application: While the clinical practice relies on expert’s decision on “good’’ beam angle, this method offers optimal solutions.<br>
+            3) Application: Previous work required a set of candidate angles, whereas this method optimized over the entire range. Indeed, it dynamically explores angles and discretizes to the maximum accuracy of the linear accelerator machine.<br>
+            <br>
+<!--            <b>Journal:</b> impact factor: 1.988, 5-year impact factor: 2.382.
+-->            <hr align="left" width="70%"><br>
+        </div>
+ 
+	<li>
+        S. Nof, G. Cheng, A. Weiner, et. al.
+        <i>Laser and Photonic Systems Integration: Emerging Innovations and Framework for Research and Education,</i>
+<!--        </i><br>(with A. Bechar, A. Bement, B. Bidanda, P. Bermel, S. Bukkapatnam,A. Capponi, X. Chen, C. Cheng, G. Cheng,  M. Dantus, A. Donmez,   M. Jones, R. Koubek, S. Kumara, S. Lee, M. Lehto, A. Liu, P. Lorraine,  S. Nof, D. Nolte, R. Proctor, C. Reed, H. Sardesai, L. Shi, Y. Shin, J. Wachs, A. Weiner, T. Weldon,  X. Zhang)
+-->
+        <a href="http://onlinelibrary.wiley.com/doi/10.1002/hfm.20555/full" target="_blank">Human Factors & Ergonomics in Manufacturing & Service Industries, <b>23</b> 483-516 (2013).</a>
+        <br>&#62;
+        <a onclick="toggle_visibility('photon');"><u>Details</u></a>
+        <div style="display:none" id="photon"><b>Summary:</b>
+            The key emerging innovations in laser and photonics systems are reviewed as well as their design and integration.  The important role of robustness in manufacturing is discussed.
+<!--            The article concludes with implications and an agenda for education, research and development, and policy needs, with a focus on human, society, science, and technology integration.-->
+            <br><br>
+            <b>Significance of my contribution:</b>
+            1) Method: An overview of a systematic approach to manufacturing in the presence of uncertainty.<br>
+            2) Application: Photonics and ultrafast lasers.
+            <br><br>
+<!--            <b>Journal:</b> impact factor: 0.462.
+-->            <hr align="left" width="70%"><br>
+        </div>
+
+
+    </li>
+
+<!-- CONF
+<ul>
+    <li style="list-style-type: square">
+        <i>Time−Resolved Stochastic IMRT Planning
+        </i><br>(with A. Roy)
+        <br>Medical Physics, <b>40</b>, 354 (2013).
+        <br>&nbsp;</li>
+</ul>
+
+<!-- CONF
+<ul>
+    <li style="list-style-type: square">
+        <i>On Augmented DVH Analysis
+        </i><br>(with I.J. Das, A. Loveless, and A. Roy)
+        <br>Medical Physics, <b>40</b>, 261 (2013).
+        <br>&nbsp;</li>
+</ul>
+
+<!-- CONF
+<ul>
+    <li style="list-style-type: square">
+        <i>Analysis of Planner Dependence in IMRT
+        </i><br>(with I.J. Das, S. Srivastava, and A. Roy)
+        <br>Medical Physics, <b>40</b>, 260 (2013).
+        <br>&nbsp;</li>
+</ul>
+
+<!-- CONF
+<ul>
+    <li style="list-style-type: square">
+        <i>Study the Effect of Grid Size On Head and Neck IMRT Dosimetry
+        </i><br>(with C. Cheng, I.J. Das, and S. Srivastava)
+        <br>Medical Physics, <b>40</b>, 351 (2013).
+        <br>&nbsp;</li>
+</ul>
+
+
+<!-- CONF
+<ul>
+    <li style="list-style-type: square">
+        <i>Unbiased Metrics of Dosimetric Variation in IMRT Planning
+        </i><br>(with C. Cheng, I.J. Das, C. Medawar, and S. Srivastava)
+        <br>Int. J. of Radiation Oncology, Biology, Physics, <b>84</b>, 3, S756 (2012).
+        <br>&nbsp;</li>
+</ul>
+
+
+ <!-- CONF
+ <ul>
+     <li style="list-style-type: square">
+         <i>Inter-Planner Dosimetric Variations in IMRT
+         </i><br>(with C. Cheng, I.J. Das, C. Medawar, and S. Srivastava)
+         <br>Medical Physics, <b>39</b>, 3845 (2012).
+         <br>&nbsp;</li>
+ </ul>
+
+<!-- CONF
+<ul>
+    <li style="list-style-type: square">
+        <i>Metrics for Comparing Dose Volume Histograms
+        </i><br>(with C. Cheng, I.J. Das, C. Medawar, and S. Srivastava)
+        <br>Medical Physics, <b>39</b>, 3851 (2012).
+        <br>&nbsp;</li>
+</ul>
+-->
+
+	<li>
+    J. Birge, F. K&auml;rtner, O. Nohadani.
+	<i>Improving thin film manufacturing yield with robust optimization,</i>
+	<a href="http://ao.osa.org/abstract.cfm?URI=ao-50-9-C36" target="_blank">Applied Optics, <b>50</b>(9) C36-C40 (2011).</a>
+	<br>&#62;
+    <a onclick="toggle_visibility('ar');"><u>Details</u></a>
+    <div style="display:none" id="ar"><b>Summary:</b>
+        A deterministic robust optimization algorithm is introduced to account for statistical variations in coating. Through Monte Carlo simulations of manufacturing, we compare the performance of a proof-of-concept antireflection (AR) coating designed with our robust optimization to that of a conventionally optimized AR coating.
+        
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: The nature of manufacturing variations was leveraged to reduce the size of the second order cone problem, resulting in considerable speedup.<br>
+        2) Application:  The robust algorithm produces an AR coating with a significantly improved yield.<br>
+        <br><br>
+<!--        <b>Journal:</b> impact factor:1.649 (2013).
+    -->    <hr align="left" width="70%"><br>
+    </div>
+    
+    </li>
+
+	<li>
+    O. Nohadani, J. Seco, T. Bortfeld.
+	<i>Motion management with phase–adapted 4D–optimization,</i>
+	<a href="http://stacks.iop.org/0031-9155/55/5189" target="_blank">Physics in Medicine and Biology <b>55</b>, 5189-5202, (2010).</a><sup>*</sup>
+    <br> * featured in <a href="http://medicalphysicsweb.org/cws/article/research/43831" target="_blank">medicalphysicsweb.org</a>.
+	<br>&#62;
+    <a onclick="toggle_visibility('4d');"><u>Details</u></a>
+    <div style="display:none" id="4d"><b>Summary:</b>
+        Motion uncertainties can significantly degrade an otherwise optimized treatment plan, particularly for lung cases.
+        We present a spatiotemporal optimization method, which takes into account all phases of breathing and provides a 4D-optimal plan. Monte Carlo dose calculations are employed for highest dosimetric accuracy.
+        We demonstrate the performance with clinical lung cancer cases and compare the outcomes to conventional gating techniques.
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: The first robust method that takes the full information on breathing phases into account in a computationally tractable fashion.<br>
+        2) Method: Practical delivery restrictions are directly modeled by linear constraints, allowing a higher delivery efficiency and a decisively shorter delivery time.<br>
+        3) Application: We report significant improvements in target coverage and in healthy tissue sparing at a comparable computational expense.<br>
+        4) Application: the resulting plans are robust against irregular breathing, as opposed to current gating methods.
+<br>
+        <br><br>
+<!--        <b>Journal:</b> impact factor: 2.761 (2014).
+    -->    <hr align="left" width="70%"><br>
+    </div>
+    
+
+    </li>
+
+	<li>
+    O. Nohadani, T. Bortfeld.
+	<i>The continuum of 3D to 4D treatment delivery,</i>
+	<a href="./iccr.pdf" target="_blank">Proc. of XVI-th ICCR, Amsterdam (2010).</a>
+	<br>&#62;
+    <a onclick="toggle_visibility('iccr');"><u>Details</u></a>
+    <div style="display:none" id="iccr"><b>Summary:</b>
+        4D radiation delivery in principle offers greater flexibility but also greater challenges, both computational and practical. We develop a computational framework to open up some of the 4D flexibility without going all the way to 4D delivery. We apply our method to lung cases.        <br><br>
+        <b>Contributions:</b>
+        1) Method: A rigorous method to study the spectrum of 3D to full 4D method, allowing to include the benefits of 4D while maintaining the efficiency of 3D.
+<br>
+        2) Application: Even for very complicated cases it is not necessary to do full unconstrained 4D delivery. This offers clinicians a practical measure for 4D inclusion at marginal overhead.<br>
+        <br><br>
+<!--        <b>Journal:</b> published every 3 years. <!--Paper was accepted for oral presentation.-->
+    -->    <hr align="left" width="70%"><br>
+    </div>
+    
+</li>
+
+
+<!--
+	<ul>
+	<li>
+	<i>
+	</i><br>(with T. Bortfeld, and J. Seco)
+	<br><a href="" target="_blank">Physics in Medicine and Biology <b>54</b> 3421-3432 (2009).</a>
+	<br>&nbsp;</li>
+
+	<ul>
+	<li> 
+	<i>
+	</i><br>(with T. Bortfeld, and J. Seco)
+	<br><a href="" target="_blank">Physics in Medicine and Biology <b>54</b> 3421-3432 (2009).</a>
+	<br>&nbsp;</li>
+
+-->
+
+
+	<li>
+    D. Bertsimas, O. Nohadani.
+	<i>Robust Optimization with Simulated Annealing,</i>
+	<a href="http://dx.doi.org/10.1007/s10898-009-9496-x" target="_blank"> Journal of Global Optimization <b>48</b>, 2, 323 (2010).</a>
+	<br>&#62;
+    <a onclick="toggle_visibility('rsa');"><u>Details</u></a>
+    <div style="display:none" id="rsa"><b>Summary:</b>
+        A robust simulated annealing algorithm is introduced that does not require any knowledge of the problems structure.
+        While this nonconvex and global optimization method improves the performance as well as the robustness, it also warrants for a global optimum which is robust against data and implementation uncertainties.
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: This is the first robust global optimization algorithm for arbitrary objective functions.<br>
+        2) Method: A new measure of robustness is introduced that accounts for both local and neighborhood sensitivity.<br>
+        3) Application: In many engineering applications, solutions are not explicitly known, hence require optimization methods that are independent of the function structure.<br>
+        4) Application: For a high-dimensional nanophotonic problem, this method shows significant improvements in efficiency as well as in actual optimality.
+        <br><br>
+<!--        <b>Journal:</b> impact factor: 1.287 (2014)
+    -->    <hr align="left" width="70%"><br>
+    </div>
+    
+    </li>
+
+<li>
+    J. Birge, F. K&auml;rtner, O. Nohadani.
+    <i>Designing Coatings in the Presence of Manufacturing Errors,</i>
+    <a href="./coating.pdf" target="_blank">Optical Interference Coatings, TuA2 (2010).</a>
+    <br>&#62;
+    <a onclick="toggle_visibility('coat');"><u>Details</u></a>
+    <div style="display:none" id="coat"><b>Summary:</b>
+        A robust optimization method is demonstrated, which attempts to account for expected coating errors. Monte Carlo simulations show the robust approach improves manufacturing yields relative to conventional optimization.
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: The structure of the photonic transfer equations is exploited to speedup the nonconvex robust optimization approach.<br>
+        2) Application: Manufacturing yields in double-chirped mirrors were very low (10%). With this method, they increased to 90%.
+        <br><br>
+<!--        <b>Journal:</b> published annually.
+    -->    <hr align="left" width="70%"><br>
+    </div>
+    
+</li>
+
+
+	<li>
+	D. Bertsimas, K.M. Teo, O. Nohadani.
+    <i>Nonconvex robust optimization for problems with constraints,</i>
+    <a href="./rob_opt_constr.pdf" Target="_blank">INFORMS Journal on Computing, <b>22</b> 44-58 (2010).</a>
+	<br>&#62;
+    <a onclick="toggle_visibility('ro_c');"><u>Details</u></a>
+    <div style="display:none" id="ro_c"><b>Summary:</b>
+        A new robust optimization method is introduced for problems with objective functions that may be computed via numerical simulations and incorporate constraints that need to be feasible under perturbations.
+        A descent direction for the robust problem is computed, allowing to find the robust local minimum.
+        We generalize the algorithm further to model parameter uncertainties.
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: This is the first nonconvex robust optimization method for constraint problems without known structure.<br>
+        2) Method: This method is tractable for problems without known structure.<br>
+        3) Application: This is the first deterministic robust optimization approach to radiation therapy planning in the presence of setup errors.
+<br>
+        <br><br>
+<!--        <b>Journal:</b> impact factor: 1.246 (2015), 5-year impact factor: 1.504
+    -->    <hr align="left" width="70%"><br>
+    </div>
+    
+    </li>
+
+	<li>
+	D. Bertsimas, K.M. Teo, O. Nohadani.
+    <i>Robust nonconvex optimization for simulation-based problems,</i>
+	<a href="./rob_opt_gen.pdf" target="_blank">Operations Research, <b>58</b> (1): 161. (2010).</a>
+<!--also available on <a href="http://www.optimization-online.org/DB_HTML/2007/08/1756.html"><i>Optimization Online</i></a> -->
+	<br>&#62;
+    <a onclick="toggle_visibility('rls');"><u>Details</u></a>
+    <div style="display:none" id="rls"><b>Summary:</b>
+        Although the theory of robust convex optimization has taken significant strides over the past decade, all approaches fail if the underlying cost function is not explicitly given; it is even worse if the cost function is nonconvex. In this work, we present a robust optimization method for unconstrained problems with a nonconvex cost function as well as for problems based on simulations, such as large partial differential equations solver, response surface, and Kriging metamodels. This technique can be employed for most real-world problems.
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: This is the first nonconvex robust optimization approach, which has been applied to many real-world problems by us and many others.<br>
+        2) Method: The generalization addresses nonconvex optimization problems under both implementation errors and parameter uncertainties.<br>
+        3) Application: In an electromagnetic multiple scattering problem of aperiodically arranged dielectrics, relevant to nanophotonic design, our robust solution significantly lowered the worst-case cost, while maintaining optimality.
+        <br><br>
+<!--        <b>Journal:</b> impact factor: 1.777, 5-year impact factor:2.838
+    -->    <hr align="left" width="70%"><br>
+    </div>
+    
+    </li>
+
+<!-- CONF
+<ul>
+    <li style="list-style-type: square">
+        <i>Motion and Delivery Management with Novel 4D-Optimization
+        </i><br>(with T. Bortfeld and J. Seco)
+        <br>Medical Physics, <b>36</b>, 2785 (2009).<sup>*</sup>oral presentation
+        <br>&nbsp;</li>
+</ul>
+-->
+
+
+	<li>
+	O. Nohadani, J. Seco, B. Martin, T. Bortfeld.
+    <i>Dosimetry Robustness with Stochastic Optimization,</i>
+	<a href="./dose_rob.pdf" target="_blank">Physics in Medicine and Biology <b>54</b> 3421-3432 (2009).</a>
+	<br>&#62;
+    
+    <a onclick="toggle_visibility('dose');"><u>Details</u></a>
+    <div style="display:none" id="dose"><b>Summary:</b>
+        All radiation therapy planning relies on accurate dose calculation.
+        A robust optimization method is introduced which handles dosimetric errors and warrants for high-quality IMRT plans. Unlike other dose error estimations, we do not rely on the detailed knowledge about the sources of the uncertainty and use a generic error model. We demonstrate the method on a clinical case of lung cancer.
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: The generic error models allows to cope with a large variety of error sources.<br>
+        2) Method: The method merges the higher efficiency of low-accuracy dose calculation approaches with the high-accuracy of computationally intractable Monte-Carlo dose calculations.<br>
+        3) Application: The resulting plans are more robust against dosimetric errors and are clinically acceptable.<br>
+        4) Application: The achieved speedup will allow computationally extensive multi-criteria or beam-angle optimization approaches to warrant for dosimetrically relevant plans.
+        <br><br>
+<!--        <b>Journal:</b> impact factor: 2.761 (2014).
+    -->    <hr align="left" width="70%"><br>
+    </div>
+    
+    </li>
+
+	<li>
+	O. Nohadani, J. Birge, F. K&auml;rtner, D. Bertsimas.
+    <i>Robust Chirped Mirrors,</i>
+	<a href="./mirrors.pdf" target="_blank">Applied Optics <b>47</b> 2630-2636 (2008).</a>
+	<br>&#62;
+    <a onclick="toggle_visibility('chirp');"><u>Details</u></a>
+    <div style="display:none" id="chirp"><b>Summary:</b>
+        We present a robust optimization method for designing dispersion-compensating chirped mirrors  systems that are used in ultrashort pulse lasers. Possible implementation errors in layer thickness are taken into account within an uncertainty set. The algorithm identifies worst-case scenarios with respect to reflectivity as well as group delay.
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: Robust optimization for transfer matrix problems, as in photonic applications.<br>
+        2) Method: Robust optimization in Fourier Space to minimize error correlation.<br>
+        3) Application: Method improves the robustness and warrants a high manufacturing yield, even when the encountered errors are larger than anticipated.<br>
+        4) application: Designs were implemented in commercial setting.
+        <br><br>
+<!--        <b>Journal:</b> impact factor:1.649 (2013).
+    -->    <hr align="left" width="70%"><br>
+    </div>
+    
+    </li>
+
+<!-- CONF
+<ul>
+    <li style="list-style-type: square">
+        <i>Patient Motion and 4D Inverse Planning
+        </i><br>(with T. Bortfeld, B. Martin, A. Trofimov, and J. Unkelbach)
+        <br>Medical Physics, <b>35</b>, 2929 (2008).
+        <br>&nbsp;</li>
+</ul>
+
+<!-- CONF
+<ul>
+    <li style="list-style-type: square">
+        <i>Robust Optimization for Lung Treatment in the Presence of Dosimetric Errors
+        </i><br>(with T. Bortfeld, D. Craft, B. Martin, and J. Seco)
+        <br>Medical Physics, <b>35</b>, 2755 (2008).
+        <br>&nbsp;</li>
+</ul>
+-->
+
+	<li>
+	D. Bertsimas, K.M. Teo, O. Nohadani.
+    <i>Robust optimization in electromagnetic scattering problems,</i>
+	<a href="./rob_opt.pdf" target="_blank">Journal of Applied Physics <b>101</b>, 074507 (2007).
+	</a><br>&#62;
+    <a onclick="toggle_visibility('goto');"><u>Details</u></a>
+    <div style="display:none" id="goto"><b>Summary:</b>
+        Often, the physical properties of a system can only be described by numerical simulation. Optimization of such systems is usually accomplished heuristically without taking errors into account.
+        We present a robust optimization method for electromagnetic scattering problems with large degrees of freedom and report on results when this technique is applied to optimization of aperiodic dielectric structures.
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: For the nominal problem, 2 methods are developed i) a gradient-free stochastic algorithm based on the simultaneous perturbation stochastic approximation  (SPSA); and ii) a modified gradient descent algorithm based on solving an adjoint linear system.<br>
+        2) Method: For the robust problem, a local search algorithm is developed.<br>
+        3) Application: Based on a two-dimensional Helmholtz equation for lossless dielectric scatterers, hence scales with frequency and is  relevant to nanophotonics.<br>
+        4) Application: The spatial configuration of 50 dielectric scatterers is robustly optimized, showing improved robustness to prototyping and manufacturing errors.
+        <br><br>
+<!--        <b>Journal:</b> impact factor: 2.183 (2014).
+    -->    <hr align="left" width="70%"><br>
+    </div>
+    
+    </li>
+
+<li>
+    Y. Chen, R. Yu, W. Li, O. Nohadani, S. Haas, A.F.J. Levi.
+    <i>Adaptive design of nano-scale dielectric structures for photonics,</i>
+    <a href="./adaptive.pdf" target="_blank">Journal of Applied Physics <b>94</b> (9), 6065 (2003).
+    </a><br>&#62;
+    <a onclick="toggle_visibility('die');"><u>Details</u></a>
+    <div style="display:none" id="die"><b>Summary:</b>
+        For the design of nanoscale dielectric structures for photonic applications,
+        two complementary algorithms are introduced.
+        The first approach uses adaptive local random updates and progressively adjusts individual dielectric layer widths.
+        The second approach is based on global updating functions in which large subgroups of layers are adjusted simultaneously.
+        Both schemes are applied to obtain specific target responses of the transmission function within selected energy windows.
+        <!--, such as discontinuous cutoff or power-law decay filters close to a photonic band edge. -->
+        <br><br>
+        <b>Contributions:</b>
+        1) Method: The local approach relies on an annealing process with constraints and is improved using Metropolis criterion.<br>
+        2) Method: The global approach is based on an analytical expansion of the strength function, fixing the leading order expansion coefficients by boundary conditions, and adjusting the remaining ones by numerical optimization.<br>
+        3) Application: Intentionally breaking translational symmetry leads to improved functionality.<br>
+        4) Application: These algorithms are effective tools in the custom design of nanoscale photonic  structures.
+        <br><br>
+<!--        <b>Journal:</b> impact factor: 2.183 (2014).
+    -->    <hr align="left" width="70%"><br>
+    </div>
+    
+</li>
+
+<!--
+<A NAME="phys_section">
+
+<h2><font color="#993333">Publications in Physics</font><font color="#333" size="2"> (peer reviewed)</font></h2>
+ -->
+<h3><font color="#993333"> Physics:</font><font color="#333" size="2"></font></h3>
+
+
+
+<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*In revision; please contact me for a copy
+-->
+
+<li>
+    R. Yu, O. Nohadani, S. Haas, T. Roscilde.
+    <i>Magnetic Bose glass phases of coupled antiferromagnetic dimers with site dilution,</i>
+    <a href="http://prb.aps.org/abstract/PRB/v82/i13/e134437" target="_blank">Physical Review B <b>82</b>, 134437 (2010).</a>
+    </li>
+
+
+
+	<li>
+	O. Nohadani, S. Wessel, S. Haas.
+    <i>Bose-Glass phases in disordered quantum magnets,</i>
+	<a href="./bg.pdf" target="_blank">Physical Review Letters <b>95</b>, 227201 (2005).
+	</a></li>
+
+	<li>
+	O. Nohadani, S. Wessel, S. Haas.
+    <i>Quantum phase transitions in coupled dimer compounds,</i>
+	<a href="./pressure.pdf" target="_blank">Physical Review B <b>72</b>, 024440 (2005).
+	</a></li>
+
+	<li>
+	O. Nohadani, S. Wessel, B. Normand, S. Haas.
+    <i>Universal scaling at field-induced magnetic phase transitions,</i>
+	<a href="./exponent.pdf" target="_blank">Physical Review B <b>69</b>, 220402(R) (2004).
+	</a></li>
+
+
+	<li>
+	B. Normand, M. Matsumoto, O. Nohadani, S. Wessel, S. Haas, T.M. Rice, M. Sigrist.
+    <i>Pressure- and field-induced manetic quantum phase transitions in TlCuCl<sub>3</sub>,</i>
+	<a href="./TlCuCl3.pdf" target="_blank">Journal of Physics: Condensed Matter
+	<b>16</b>, No 11, S867-S873 (2004).
+	</a></li>
+
+	<li>
+	W. Schadow, O. Nohadani, W. Sandhas.<i>
+    Photonuclear Reactions of Three-Nucleon Systems,</i>
+	<a href="./polari.pdf" target="_blank">Physical Review C <b>63</b>, 044006 (2001).
+	</a></li>
+	<DL>
+
+    </ol>
+
+
+	<h2><font color="#993333">Book Chapter:</font></h2>
+	<ol>
+   <li>
+       E. Stubington, M. Ehrgott, G. Shentall, Omid Nohadani.
+       <i>Cases based on Multiple Criteria Decision Making/Aiding methods: Building and Solving Decision Models with Computer Implementations,</i> <font color="#330099">Springer (2018) </font>,
+        editted by S. Huber, M. J. Geiger, and A. T. de Almeida.<br>
+        Chapter: <i>Evaluating the Quality of Radiotherapy Treatment Plans for Prostate Cancer.</i>
+    </li>
+   
+	<li>
+    O. Nohadani, D. Bertsimas.
+	<i>Optimal Device Design
+	</i>
+    <a href="http://www.cambridge.org/uk/catalogue/catalogue.asp?isbn=9780521116602" target="_blank"> Cambridge University Press (2010),</a>
+    editted by A.F.J. Levi and S. Haas.<br>
+    Chapter 6: <i>Robust optimization in high dimensions.</i>
+	</a><br>&nbsp;</li>
+
+
+
+
+
+<h2><font color="#993333">Conference Abstracts</font><font color="#333" size="2"> (peer reviewed)</font></h2>
+
+<ol>
+
+
+<li>
+    A. Roy, O. Nohadani.
+    <i>Robustness in Hypoxia-Guided IMRT Planning,</i>
+    Medical Physics, forthcoming (2017).<sup>*</sup>oral presentation
+    <!-- http://dx.doi.org/10.1118/1.4955569 -->
+    <br>&#62;
+    <a onclick="toggle_visibility('hyp');"><u>Details</u></a>
+    <div style="display:none" id="hyp" ><b>Abstract:</b><br>
+        <i>Purpose:</i> To investigate the inclusion of hypoxia and reoxygenation information into IMRT planning. A robust planning framework is compared to current clinical practices for a prostate cancer case.<br>
+         
+        <i>Method:</i>  Hypoxia reduces radiosensitivity of cells. Current practice to overcome this limited efficacy of treatment includes dose escalations to hypoxic tumor subregions by modifying the prescribed dose by a scaling factor based on initial PET scans. This factor remains constant throughout the treatment. In order to leverage reoxygenation of hypoxic cells, we employ a time-dependent scaling factor. The changes in reoxygenation are driven by perfusion and angiogenesis and their progression is uncertainty. Therefore, we model the scaling factor to reside in a time-dependent uncertainty set. When mid-treatment PET scans are available, this set is updated to incorporate this observation. A robust optimization model with a time-dependent uncertainty set is solved for a finite set of clinically realistic scenarios.<br>
+         
+        <i>Results:</i> Weekly EUD are computed for all three plans: the robust plan shows and average improvement of 30% compared to the equal dose per fraction plan, which ignores hypoxia, and 4% compared to escalated plans, which neglects reoxygenation. For organ sparing, bladder and rectum D15 for the robust plan remains within 4% of the equal dose per fraction plan under nominal and worst-case conditions (deviating progression rate than assumed), whereas the escalated plan increases bladder D15 by 11% and rectum by 19%.<br>
+         
+        <i>Conclusions:</i>
+        It is possible to leverage reoxygenation information in order to produce temporally uniform dose distributions, which is the objective of fractionation. The uncertain progression can be modeled via a robust framework that improves plans by reducing dose to critical organs without sacrificing target coverage.          <br><br>
+        <b>Conference:</b> <i>American Association for Physicists in Medicine (AAPM)</i>, 59th Annual Meeting.
+        <hr align="left" width="70%"><br>
+    </div>
+</li>
+
+<li>
+    O. Nohadani, I. Das.
+    <i>Robust Statistical Estimators for IMRT Plan Analysis,</i>
+    Medical Physics, forthcoming (2017).<sup>*</sup> presentation
+    <!-- http://dx.doi.org/10.1118/1.4955569 -->
+    <br>&#62;
+    <a onclick="toggle_visibility('hyp');"><u>Details</u></a>
+    <div style="display:none" id="hyp" ><b>Abstract:</b><br>
+        <i>Purpose:</i> To investigate the efficacy of maximum likelihood estimators (MLE) in IMRT plan analysis. Robust estimators are compared to standard MLE for a large cohort of cancer patients treated with IMRT.<br>
+         
+        <i>Method:</i>  Standard MLEs are known to be sensitive to sample choice and sample size. This renders the derived conclusions unreliable, despite their clinical popularity. Using robust optimization principles, we develop robust MLEs that are immune against uncertainties and remain reliable even in worst-case deviations. This method is well suited for large-scale and high-dimensional data. We compare them to standard MLEs on 491 delivered treatment plans based on their DVH points Dx. All treatments followed the same protocols and were planned with the same TPS. We simulate typical institutional analysis for means and covariances of Dx. An estimator is considered reliable, when its value remains stable for differing sample sets, i.e., when estimators exhibit a narrow spread over sampled data sets. We conduct two experiments: a) constant sample size but varying samples and b) for varying sample sizes.<br>
+         
+        <i>Results:</i> The spread of robust means are stable and the same as the standard sample means for input data deviations. With regard to sample-size dependence, sample means exhibit a sizable sensitivity, whereas the robust means remain unchanged. These results apply to all relevant Dx, making robust estimators superior over the clinically relevant range. These advantages are magnified for higher estimators, such as covariances and correlation coefficients which are key metrics for analyzing protocol adherence.<br>
+         
+        <i>Conclusions:</i>
+            Robust estimators are immune against variations in sample and sample size, hence are suited to provide more reliable dosimetric plan analysis. Their computation is efficient for big data and independent of the error sources.
+          <br><br>
+        <b>Conference:</b> <i>American Association for Physicists in Medicine (AAPM)</i>, 59th Annual Meeting.
+        <hr align="left" width="70%"><br>
+    </div>
+</li>
+
+
+
+    <li>
+        A. Roy, O. Nohadani.
+        <i>Incorporating Time-Dependent Hypoxia in IMRT Planning,</i>
+        Medical Physics, <b>43</b>, 3322 (2016).<sup>*</sup>oral presentation
+        <!-- http://dx.doi.org/10.1118/1.4955569 -->
+        <br>&#62;
+        <a onclick="toggle_visibility('hyp');"><u>Details</u></a>
+        <div style="display:none" id="hyp" ><b>Summary:</b>
+            Uncertainties in oxygenation of tumor cells are incorporated into radiation therapy planning via robust optimization. Due to the unpredictable nature of re-oxygenation of hypoxic cells, the radio-sensitivity factor and its change is modeled to reside in a time-dependent uncertainty set. This uncertainty can adapt to both pre- and mid-treatment PET scans. The model is demonstrated using a clinical prostate cancer case.
+            <br><br>
+            <b>Contributions:</b>
+            1) Method: The original NP-hard problem is reformulated into a linear program with finitely many linear constraints, which can be solved efficiently.<br>
+            2) Application: The method can improve tumor coverage by increasing dose to hypoxic tumor voxels that is overlooked by common fractionated treatments.<br>
+            3) Application: Model anticipates the re-oxygenation process, thus reducing excess dose at later fractions in comparison to uniform dose-escalation methods.
+            <br><br>
+            <b>Conference:</b> <i>American Association for Physicists in Medicine (AAPM)</i>, 58th Annual Meeting.
+            <hr align="left" width="70%"><br>
+        </div>
+    </li>
+    
+    <li>
+        A. Roy, I.J. Das, O. Nohadani.
+        <i>Unexpected Correlations Amongst Recommended Planning Aims,</i>
+        Int. J. of Radiation Oncology, Biology, Physics, <b>93</b>, 3, E609 (2015).
+        <!-- http://dx.doi.org/10.1016/j.ijrobp.2015.07.2103 -->
+        <br>&#62;
+        <a onclick="toggle_visibility('astro_aim');"><u>Details</u></a>
+        <div style="display:none" id="astro_aim" ><b>Summary:</b>
+            To guide the IMRT planning process, institutional and standardized recommendations are available.
+            However, in practice one or more of the recommended aims cannot be satisfied.
+            We analyze the set of common goals to identify potential issues in IMRT planning that inherently prevent goals to be concurrently satisfied.
+            This study showed that some of the recommendations are in fact competing and, hence, cannot be met concurrently.
+            <br><br>
+            <b>Contributions:</b>
+            1) 500 IMRT plans for various sites were analyzed based on the institutional DVH goal for PTV (D<sub>95</sub>) and the recommendations by ICRU-83 (D<sub>2</sub>, D<sub>50</sub>, D<sub>98</sub>, and D<sub>100</sub>).<br>
+            2) Variations amongst the DVH goals for PTV were independent of the tumor site.<br>
+            3) Negative correlations were observed between D<sub>50</sub> and D<sub>98</sub> for PTV.<br>
+            4) These results offer a framework to identify independent and effective planning goals that enhance plan quality and improve compliance.
+            <br><br>
+            <b>Conference:</b> <i>American Society for Radiation Oncology (ASTRO)</i> 57th Annual Meeting.
+            <hr align="left" width="70%"><br>
+        </div>
+    </li>
+    
+    <li>
+        A. Roy, I.J. Das, O. Nohadani.
+        <i>Large-Scale DVH Quality Study: Correlated Aims Lead Relaxations,</i>
+        Medical Physics <b>42</b>(6), 3457 (2015).
+        <br>&#62;
+        <a onclick="toggle_visibility('relax');"><u>Details</u></a>
+        <div style="display:none" id="relax" ><b>Summary:</b>
+            In IMRT, desired dose distributions are iteratively approached via inverse planning. This leads to tradeoffs between clinical objectives for the planning target volume, organs at risk, and normal tissues. We analyze common goals and identify potential reasons that often lead to tradeoffs.
+            <br><br>
+            <b>Contributions:</b>
+            1) Robust statistical tools are developed and applied to ensure that the results are immune to data uncertainties.<br>
+            2) 524 IMRT plans for various tumor sites were analyzed based on the main institutional DVH goal for PTV and the recommendations by ICRU-83.<br>
+            3) A large majority of cases satisfied the institutional goal for PTV of D<sub>95</sub> and D<sub>98</sub>. However, only 18% of cases satisfied D<sub>50</sub>.
+            <br><br>
+            <b>Conference:</b> <i>American Association for Physicists in Medicine (AAPM)</i>, 57th Annual Meeting.
+            <hr align="left" width="70%"><br>
+        </div>
+    </li>
+    
+    
+    <li>
+        A. Roy, T. Refaat, I. Bacchus, D. Cutright, V. Sathiaseelan, B. Mittal, and O. Nohadani.
+        <i>A Retrospective Correlation Analysis On Dose-Volume Control Points and Treatment Outcomes,</i>
+        Medical Physics <b>42</b>(6), 3347 (2015).
+        <br>&#62;
+        <a onclick="toggle_visibility('outcome');"><u>Details</u></a>
+        <div style="display:none" id="outcome" ><b>Summary:</b>
+            Correlation between dose-volume control points and treatment outcomes are analyzed. Specifically, two outcomes are analyzed: occurrence of radiation induced dysphagia and target complications. The results inform the treatment planning process when competing dose-volume criteria requires relaxations.
+            <br><br>
+            <b>Contributions:</b>
+            1) 32 patients, treated with whole-field sequential intensity modulated radiation therapy during 2009–2010 period, are considered for this study. Acute dysphagia that is categorized into 3 grades is observed on all patients. <br>
+            2) For correlation with dysphagia, D<sub>min</sub> on cervico-thoracic esophagus is statistically significant. Also, D<sub>mean</sub> on cervico-thoracic esophagus is significant in association with dysphagia.<br>
+            3) No correlation was observed between D<sub>max</sub> and dysphagia. For target complications, D<sub>50</sub> on the target is a statistically significant dose control point
+            <br><br>
+            <b>Conference:</b> <i>American Association for Physicists in Medicine (AAPM)</i>, 57th Annual Meeting.
+            <hr align="left" width="70%"><br>
+        </div>
+    </li>
+    
+    <li>
+        A. Roy, O. Nohadani. <i>Time−Resolved Stochastic IMRT Planning,</i>
+        Medical Physics, <b>40</b>, 354 (2013).
+        <!-- http://dx.doi.org/10.1118/1.4815072 -->
+        <br>&#62;
+        <a onclick="toggle_visibility('time_resolved');"><u>Details</u></a>
+        <div style="display:none" id="time_resolved" ><b>Summary:</b>
+            We develop a stochastic time‐resolved model that accounts for spatiotemporal changes in tumor over the extended course of the treatment. We also aim to mitigate the effect of uncertainties, yet generate clinically acceptable plans even in worst‐case scenarios. The performance of the method is demonstrated based on a clinical lung cancer case.
+            <br><br>
+            <b>Contributions:</b>
+            1) The underlying model unites three different different approaches: incorporating single CT, 4D-CT, and multiple-patient 4D-CTs, allowing for direct comparison.<br>
+            2) Conventional models disregarding tumor regression lead to significant overdose on OAR as time progresses. The nominal time‐resolved model allows for redistribution of the dose based on tumor regression. When regression assumptions deviate from the realized, tumor coverage isclinically not acceptable. <br>
+            3) The time‐resolved model mitigates the uncertain knowledge about tumor regression. It meets tumor dose criterion, whilst sparing the OAR even in the worst‐case scenario.
+            <br><br>
+            <b>Conference:</b> <i>American Association for Physicists in Medicine (AAPM)</i>, 55th Annual Meeting.
+            <hr align="left" width="70%"><br>
+        </div>
+    </li>
+    
+    <li>
+        A. Loveless, A. Roy, I.J. Das, O. Nohadani.
+        <i>On Augmented DVH Analysis,</i>
+        Medical Physics, <b>40</b>, 261 (2013).
+        <br>&#62;
+        <a onclick="toggle_visibility('andrew');"><u>Details</u></a>
+        <div style="display:none" id="andrew" ><b>Summary:</b>
+            The process of IMRT planning is an iterative inverse process, hence creating a plethora of competing objectives.
+            A key tool to inspect the quality of plans is the DVH. This inspection, however, is primarily conducted visually.
+            We propose a quantitative method for DVH comparison based on historical data.
+            <br><br>
+            <b>Contributions:</b>
+            1) The treatment of one prostate case was planned by seven planners, while imposing the same clinical objectives for PTV and OARs. <br>
+            2) A deviation function L is proposed to measure the weighted area between the ideal and realized DVH.
+            The weights are formed based on the distribution of past data of 100 comparable prostate cases.
+            The frequencies were interpolated to form a continuous surface using tensor product piecewise cubic hermite interpolation.<br>
+            3) The proposed method is universal and applies to other organs and/or combinations of criteria as well and clearly separated visually comparable plans, which was clinically verified.
+            <br><br>
+            <b>Conference:</b> <i>American Association for Physicists in Medicine (AAPM)</i>, 55th Annual Meeting.
+            <hr align="left" width="70%"><br>
+        </div>
+    </li>
+    
+    <li>
+        A. Roy, I.J. Das, S. Srivastava, O. Nohadani.
+        <i>Analysis of Planner Dependence in IMRT,</i><
+            Medical Physics, <b>40</b>, 260 (2013).
+            <!-- http://dx.doi.org/10.1118/1.4814678 -->
+            <br>&#62;
+            <a onclick="toggle_visibility('planner_dep');"><u>Details</u></a>
+            <div style="display:none" id="planner_dep" ><b>Summary:</b>
+                IMRT data of comparable treatments are statistically analyzed to identify clinical preferences and establish best practices for future decision‐making processes.
+                Statistical measures are used for variations in the DVH of 100 head and neck cancer patients from IU‐Simon Cancer Center. All three measures show considerable variation amongst DVHs.  We also observe that standard statistical tools sensitive to data uncertainty.
+                <br><br>
+                <b>Contributions:</b>
+                1) Unanimous decisions for DVHs exist only at lower values of volume and dose.<br>
+                2) Significant variations in the DVH falloff region: the increased variations in the steepness suggest that individual preferences are more divergent.<br>
+                3) A closer unanimity in future decision‐making may lead to enhanced planner independence of IMRT treatments.
+                <br><br>
+                <b>Conference:</b> <i>American Association for Physicists in Medicine (AAPM)</i>, 55th Annual Meeting.
+                <hr align="left" width="70%"><br>
+            </div>
+            </li>
+    
+    <li>
+        S. Srivastava, I.J. Das, C. Cheng, O. Nohadani.
+        <i>Study the Effect of Grid Size On Head and Neck IMRT Dosimetry,</i>
+        Medical Physics, <b>40</b>, 351 (2013).
+        <!-- http://dx.doi.org/10.1118/1.4815060 -->
+        <br>&#62;
+        <a onclick="toggle_visibility('grid');"><u>Details</u></a>
+        <div style="display:none" id="grid" ><b>Summary:</b>
+            Dosimetry is impacted by the calculational  grid size, which is studied for head and neck IMRT with special consideration on the tumor control probability (TCP) and normal tissue complication probability (NTCP), which were computed using LQ Poisson model and Lyman Kutcher Burman model respectively from DVH data.
+            Five head and neck patients treated with IMRT and daily IGRT were chosen for this study.
+            Treatment plans were generated for different grid sizes (1-5mm).  All other protocols remained the same.
+            <br><br>
+            <b>Contributions:</b>
+            1) The PTV mean dose decreases with increasing grid size from 1mm to 5mm.<br>
+            2) TCP decreases with increasing grid size. Mean dose and NTCP for the right parotid increases with increasing grid size. Similar patterns were observed for all other OARs: left parotid, mandible, brainstem and spinal cord. <br>
+            3) Smallest possible grid size should be used for accurate dose calculation in head and neck IMRT planning. <br>
+            4) Smallest calculational grid also improves TCP for target volumes and reduces NTCP for normal tissues.
+            <br><br>
+            <b>Conference:</b> <i>American Association for Physicists in Medicine (AAPM)</i>, 55th Annual Meeting.
+            <hr align="left" width="70%"><br>
+        </div>
+    </li>
+    
+    <li>
+        O. Nohadani, S. Srivastava, C. Medawar, I.J. Das.
+        <i>Unbiased Metrics of Dosimetric Variation in IMRT Planning,</i>
+        Int. J. of Radiation Oncology, Biology, Physics, <b>84</b>, 3, S756 (2012).
+        <!-- http://dx.doi.org/10.1016/j.ijrobp.2012.07.2027 -->
+        <br>&#62;
+        <a onclick="toggle_visibility('metric');"><u>Details</u></a>
+        <div style="display:none" id="metric" ><b>Summary:</b>
+            The process of IMRT planning is rather the unpredictable outcome of a series of trial-and-error attempts at meeting these competing objectives. To compare inter-planner variations, we introduce
+            a deviation function L measures the area between the ideal and realized DVH. A weight function W is used for dose dependency. We employ a set of Ws: constant, piece-wise linear, quadratic, normal and beta-distributional weight functions. Seven clinical plans serve to proof the concept.
+            This approach may also serve as an unbiased quantitative measure for the daily clinical decision making.
+            <br><br>
+            <b>Contributions:</b>
+            1) A new unbiased metric to quantify the quality of plans. A set of different weight functions is provided.<br>
+            2) We show that the deviations of some planners are consistently higher than others for all eight W functions.<br>
+            3) The outcome of treatment planning is strongly dependent on the planner's skill and choices, hence variable in outcome.
+            <br><br>
+            <b>Conference:</b> Conference:</b> <i>American Society for Radiation Oncology (ASTRO)</i> 54th Annual Meeting.
+            <hr align="left" width="70%"><br>
+        </div>
+    </li>
+    
+    <li>
+        S. Srivastava, O. Nohadani, C. Medawar, C. Cheng, I.J. Das.
+        <i>Inter-Planner Dosimetric Variations in IMRT,</i><
+            Medical Physics, <b>39</b>, 3845 (2012).
+            <!-- http://dx.doi.org/10.1118/1.4735693 -->
+            <br>&#62;
+            <a onclick="toggle_visibility('inter_planner');"><u>Details</u></a>
+            <div style="display:none" id="inter_planner" ><b>Summary:</b>
+                The inter‐planner variations in IMRT dosimetry with identical dose prescription is studied.
+                Five treatment planners followed the same protocol designed plans using the same software.
+                Each planner performed the treatment planning process with inhomogeneity corrections by using the same dose constraints. DVH and isodose distributions were compared.
+                <br><br>
+                <b>Contributions:</b>
+                1) Large variations in the IMRT plans reflected by the DVH among the planners even with identical dose constraints.<br>
+                2) The inter‐planner variations in PTV as large as 20% were found in this study. <br>
+                3) Every optimization with the same constraints can result in significantly differentplans, due to differences in constraint weights. <br>
+                4) One of the planner met all the dose criteria for PTV and OARs. Therefore,it is possible to meet all the dose criteria.
+                <br><br>
+                <b>Conference:</b> <i>American Association for Physicists in Medicine (AAPM)</i>, 54th Annual Meeting.
+                <hr align="left" width="70%"><br>
+            </div>
+            </li>
+    
+    <li>
+        O. Nohadani, C. Medawar, A. Roy, S. Srivastava, I.J. Das.
+        <i>Metrics for Comparing Dose Volume Histograms,</i>
+        Medical Physics, <b>39</b>, 3851 (2012).
+        <!-- http://dx.doi.org/10.1118/1.4735721 -->
+        <br>&#62;
+        <a onclick="toggle_visibility('compare');"><u>Details</u></a>
+        <div style="display:none" id="compare" ><b>Summary:</b>
+            Due to the inverse nature of IMRT planning, the final product can vary by the path the planner has taken.  We provide a set of metrics for unbiased DVH comparison.
+            We employ a set of similar prostate case to show the performance of the metric.
+            These results exhibit the need for methods whose outcomes are independent of the planning personal.
+            <br><br>
+            <b>Contributions:</b>
+            1) We show that the deviation of some planners are consistently higher than others.<br>
+            2) The proposed set of DVH metrics allow for unbiased comparison, beyond the visual inspections.<br>
+            3) An optimized superposition of these metrics may yield a practical tool for daily treatment planning.
+            <br><br>
+            <b>Conference:</b> <i>American Association for Physicists in Medicine (AAPM)</i>, 54th Annual Meeting.
+            <hr align="left" width="70%"><br>
+        </div>
+    </li>
+    
+    <li>
+        O. Nohadani, J. Secon, T. Bortfeld.
+        <i>Motion and Delivery Management with Novel 4D-Optimization,</i>
+        Medical Physics, <b>36</b>, 2785 (2009).<sup>*</sup>oral presentation
+        <!-- http://dx.doi.org/10.1118/1.3182569 -->
+        <br>&#62;
+        <a onclick="toggle_visibility('4d_opti_motion');"><u>Details</u></a>
+        <div style="display:none" id="4d_opti_motion" ><b>Summary:</b>
+            Motion uncertainties can substantially degrade the quality of an otherwise optimized treatment plan. We present a novel 4D‐optimization technique that exploits time effects and provides plans which are robust against tumor motion and warrant deliverability.
+            The 4D‐optimization technique takes all registered breathing phases into account. All 4D CT data are conformally registered. To account for lung tissue inhomogeneities, we use Monte Carlo dose calculations.
+            <br><br>
+            <b>Contributions:</b>
+            1) This is the first method to address fully 4D-robust approach.<br>
+            2) A novel deliverability constraint insures closeness of the beamlet intensities for neighboring phases. <br>
+            3) Based on a clinical lung cancer case, this method delivers robust plans that significantly outperform the gating‐based optimal plans both in terms of target coverage as well as OAR sparing.<br>
+            4) The plan is also inherently robust against sequencing and delivery errors.
+            <br><br>
+            <b>Conference:</b> <i>American Association for Physicists in Medicine (AAPM)</i>, 51th Annual Meeting.
+            <hr align="left" width="70%"><br>
+        </div>
+    </li>
+    
+    <li>
+        T. Bortfeld, A. Trofimov, J. Unkelbach, B. Martin, O. Nohadani.
+        <i>Patient Motion and 4D Inverse Planning,</i>
+        Medical Physics, <b>35</b>, 2929 (2008).
+        <!-- http://dx.doi.org/10.1118/1.2962676 -->
+        <br>&#62;
+        <a onclick="toggle_visibility('4d_inverse');"><u>Details</u></a>
+        <div style="display:none" id="4d_inverse" ><b>Summary:</b>
+            Motion of the patient and inner organs does not substantially change the spatial dose distribution in photon therapy in the room coordinate system, aside from the build‐up region. In other words, organs move within a static “dose cloud”. Using this approximation it is easy to understand the consequences of motion: systematic errors (lack of accuracy) lead to an offset of the dose distribution in the frame of the organs, and random errors (lack of precision) lead to dose blurring.
+            <br><br>
+            <b>Contributions:</b>
+            1) Overview of concepts of motion blur and PDF.<br>
+            2) De‐blurring a dose distribution through “4D” motion optimization is discussed.<br>
+            3) The relative potential and limitations of 4D motion optimization is compared with margins and gating.
+            <br><br>
+            <b>Conference:</b> <i>American Association for Physicists in Medicine (AAPM)</i>, 50th Annual Meeting.
+            <hr align="left" width="70%"><br>
+        </div>
+    </li>
+    
+    <li>
+        O. Nohadani, B. Martin, J. Seco, D. Craft, T. Bortfeld.
+        <i>Robust Optimization for Lung Treatment in the Presence of Dosimetric Errors,</i>
+        Medical Physics, <b>35</b>, 2755 (2008).
+        <br>&#62;
+        <a onclick="toggle_visibility('rob_lung_all');"><u>Details</u></a>
+        <div style="display:none" id="rob_lung_all" ><b>Summary:</b>
+            Uncertainties, such as breathing motion, can substantially degrade the quality of an otherwise optimized treatment plan.
+            The quality of robustly optimized plans significantly depend on how well the underlying dose calculation matches the actual delivered dose to the treated organ.
+            We present two planning concepts using robust optimization techniques. The first concept relies on pencil beam based calculation of the delivered dose. The second method employs Monte Carlo dose calculation.
+            <br><br>
+            <b>Contributions:</b>
+            1) The first robust optimization algorithm that provides optimized IMRT plans which are inherently robust against dosimetric errors.<br>
+            2) We observe a significant laterally scattered dose that is not capture with simple pencil beam algorithms, amounting to up to 30%.<br>
+            3) If the treated structure does not reveal significant inhomogeneities, using a computationally less expensive dose calculation can allow for more sophisticated types of treatment optimizations, e.g.,  beam‐angle optimization.
+            <br><br>
+            <b>Conference:</b> <i>American Association for Physicists in Medicine (AAPM)</i>, 50th Annual Meeting.
+            <hr align="left" width="70%"><br>
+        </div>
+    </li>
+    
+    
+</ol>
+
+
+
+
+
+
+
+
+
+	</ol>
+	<h2><b><font color="#993333">Thesis:</font></b></h2>
+	<ol>
+
+	<li>
+	<i>Quantum Phase Transitions in Quantum Magnets
+	</i><br><a href="thesis.pdf" target="_blank">Dissertation, University of Southern California, Los Angeles	(2005).
+	</a><br>&nbsp;</li>
+
+	<li>
+	<i>Calculation of the Polarization Observables of the radiative capture d + p -> 3H + gamma
+	</i><br><a href="diplom.pdf" target="_blank">Diploma Thesis, University Bonn (2000).
+	</a><br>&nbsp;</li>
+	<DL>
+	</ol>
+
+<br>
+
+
+
+
+<center>(last update: October 2018)</center>
+
+
+  </div>  <!-- end content -->
+
+  <div id="sidebar">
+	<br><br><br>
+<img class="home" src="../img/worst.gif" width="160px">
+<img class="home" src="../img/4d.gif" width="160px">
+  </div>   <!-- end sidebar -->
+
+  <div class="clear_element"></div>
+
+</div> <!-- end wrapper --> 
+
+<div id="footer">
+</div>
+
+
+
+</body>
+</html>

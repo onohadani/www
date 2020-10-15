@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Omid Nohadani @ MIT</title>    
+    <link href="mystyle.css" rel="stylesheet" type="text/css">
+<!-- pics script begin -->
+<style type="text/css">
+
+#picturearea{
+filter:alpha(opacity=100);
+-moz-opacity: 0;
+}
+
+</style>
+
+<!-- Change path below to point to "getpics.php" on your server -->
+<!--<script src="http://web.mit.edu/nohadani/web_scripts/getpics.php" 
+type="text/javascript"></script>
+-->
+<script src="http://scripts.mit.edu/~nohadani/getpics.php" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+function populateSelect(selectobj){
+for (var i=0; i<picsarray.length; i++)
+selectobj.options[selectobj.options.length]=new Option(picsarray[i], picsarray[i])
+if (selectobj.options.length>1){
+selectobj.selectedIndex=0
+showpicture(document.getElementById("picsform").picslist)
+}
+}
+
+function showpicture(selectobj){
+piccontainerobj=document.getElementById("picturearea")
+resetfade(10)
+piccontainerobj.innerHTML='<img src="'+locationstring+selectobj.options[selectobj.selectedIndex].value+'">'
+fadepictoview=setInterval("gradualfade(piccontainerobj)",50)
+}
+
+function resetfade(degree){
+if (window.fadepictoview)
+clearInterval(fadepictoview)
+if (typeof piccontainerobj.style.MozOpacity=="string")
+piccontainerobj.style.MozOpacity=degree/100
+else if (piccontainerobj.filters)
+piccontainerobj.filters.alpha.opacity=degree
+}
+
+function gradualfade(){
+if (typeof piccontainerobj.style.MozOpacity=="string" && piccontainerobj.style.MozOpacity<1)
+piccontainerobj.style.MozOpacity=Math.min(parseFloat(piccontainerobj.style.MozOpacity)+0.2, 0.99)
+else if (piccontainerobj.filters && piccontainerobj.filters.alpha.opacity<100)
+piccontainerobj.filters.alpha.opacity+=20
+else //if not IE or Moz
+clearInterval(fadepictoview)
+}
+
+window.onload=function(){
+populateSelect(document.getElementById("picsform").picslist)
+}
+
+</script>
+<!--  pics script end -->
+
+</head>
+
+<body>
+
+<div id="header">
+    <a  id="MITlink" href="http://web.mit.edu"></a>      
+</div>
+
+<div id="wrapper" class="home">
+
+<div id="nav">
+    <a id="first" href="http://web.mit.edu/nohadani/www/">HOME</a>
+    <a href="res.html">RESEARCH</a>
+    <a href="./publications/">PUBLICATIONS</a>
+    <a href="talks.html">TALKS</a>
+    <a  href="cv.html">CV</a>
+    <a id="last" class="active" href="links.html">LINKS</a>
+</div>
+
+<div id="content">
+<h2><b><font color="#993333">Pics</font></b></h2>
+
+<!--  pics script begin -->
+<div style="float: left; width: 200px;">
+<form id="picsform">
+<select name="picslist" size="4" style="width: 200px" onClick="showpicture(this)">
+</select>
+</form>
+</div>
+<div id="picturearea" style="float: left; width: 400px; height: 300px; margin-left: 20px">
+</div>
+
+<br style="clear: left" />
+<!--  pics script end -->
+
+</div>  <!-- end content -->    
+
+<div id="sidebar">
+<img class="home" src="./img/sunset_rower.jpg">
+</div>   <!-- end sidebar -->
+
+<div class="clear_element"></div>
+
+</div> <!-- end wrapper --> 
+
+<div id="footer">
+</div>
+
+</body>
+</html>
